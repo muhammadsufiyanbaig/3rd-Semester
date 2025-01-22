@@ -1,0 +1,43 @@
+SYLLABUS OF PROBABILTY & STATISTICS:
+------------------------------------------------------------------------------------------------------------------------------
+- Fundamental Priciple of Counting (Basic Permutation)
+- Basic Formula of Factorial and Permutation
+- Restricted Permutation
+- Permutation with Repetition
+- Circular Permutation
+- Basic and Restricted
+- Combination Techniques
+- Basic Probability
+- Algebra of Events
+- Conditional Probability
+- Multiplication Law of Probability
+- Independent Events with example
+- Law of Total Probability
+- Bayes'Theorem 
+- Random Variable
+- Mean, Variance and Standard Deviation of Distribtion
+- Discrete and Continuous Random Varible
+- Binomial or Bernoulli Distribtion
+- Mean, Median and Mode
+- Poisson Discrete
+- Mean, Median and Mode of Grouped Data
+- Properties of Mean, Median and Mode
+- Basic Integration for CRV
+- Normal Distribtion
+- Genral Continuous Distribtion
+- Uniform Distribtion
+- Exponential Distribtion
+- Correlation 
+- Coefficient of Correlation
+- Regression
+- Regression between two lines
+- T-Distribtion
+- Chi Squared Distribtion
+- Hypothesis
+- T-Test
+- Introduction to Z-Test
+- Z-Test (To Test number of Success)
+- Z-Test (To Test Proportion of Success)
+- Z-Test (Test for Difference between Proportion)
+- Central Limit Theorem
+- Chi Square Test

@@ -1,0 +1,26 @@
+SYLLABUS OF DATA STRUCTURES & ALGORITHMS:
+------------------------------------------------------------------------------------------------------------------------------
+- Introduction
+- Binary Number System
+- Bitwise Operators
+- Vectors 
+- Majority Element | Brute-Better-Best Apporach
+- Time Complexity
+- Big O notation
+- Arrays
+- Linked List 
+- Hash Table
+- Collision Handling Hash Table
+- Stack 
+- Queue 
+- Tree (General)
+- Binary Tree
+- Graph
+- Binary Search
+- Bubble Sort 
+- Quick Sort
+- Inseration Sort
+- Merge Sort
+- Shell Sort
+- Selection Sort 
+- Recursions

@@ -1,0 +1,51 @@
+SYLLABUS OF COMPUTER NETWORK
+------------------------------------------------------------------------------------------------------------------------------
+Chapter #01: Introduction Concepts:
+- Goals and Applications of Network
+- Network Structure and architecture
+- The OSI reference model
+- Services
+- Network Topology Design
+- Delay Analysis
+- Back Bone Design
+- Local Access Network Design
+- Physical Layer Transmission Media
+- Swtiching Methods
+- ISDN
+- Terminal Handling 
+
+Chapter #02: Medium Access sub Layer
+- Medium Access sub layer
+- Channel Allocations
+- LAN protocols 
+- ALOHA protocols
+- Overview of IEEE standards
+- FDDI. Data Link Layer
+- Elementary Data Link Protocols
+- Sliding Window protocols
+- Error Handling
+
+Chapter #03: Network Layer
+- Network Layer - Point - to Point Networks
+- Routing 
+- Congestion Control Internetworking TCP/ IP
+- IP Packet
+- IP address
+- IPv6
+
+Chapter #04: Transport Layer
+- Transport Layer - Design issues
+- Connection Management
+- Session Layer-Design issues
+- Remote Procedure call
+- Presentation Layer-Design issues
+- Data Compression techniques
+- Cryptography-TCP-Window Management
+
+Chapter #05: Application Layer
+- Application Layer: File Transfer
+- Access and Management
+- Electronic mail
+- Virtual Terminals
+- Other application
+- Example Networks-Internet and Public Networks

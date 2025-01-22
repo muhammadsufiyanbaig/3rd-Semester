@@ -1,0 +1,215 @@
+SYLLABUS OF SOFTWARE ENGINEERING:
+------------------------------------------------------------------------------------------------------------------------------
+Chapter # 01: Introduction
+- Introduction to Software Engineering,
+- Software Components,
+- Software Characteristics,
+- Software Crisis,
+- Software Engineering Crisis,
+- Software Engineering Process,
+- Similarity and Differences from Conventional Engineering Program,
+- Software Quality Attributes,
+- Software Development Life cycle (SDLC),
+- Model: 
+	- Water Fall Model,
+	- Prototype Model,
+	- Spiral Model,
+	- Evolutionary Development Models,
+	- Iterative Enhancement Models.
+	
+Chapter # 02: Software Requirement Specifications (SRS)
+- Requirement Engineering Process:
+	- Elicitation,
+	- Analysis,
+	- Documentation,
+	- Review and Management of User Needs.
+- Feasibilty Study,
+- Information Modeling,
+- Data Flow Diagrams, 
+- Entity Releational Daigrams,
+- Decision Tables,
+- SRS Documentation,
+- IEEE Standard for SRS,
+- Software Quality Assurance (SQA): Verification and Validation,
+- SQA Plans, Software Quality Framework, ISO 9000 Models, SEI-CMM Model
+
+Chapter # 03: Software Design
+- Basic Concept of Software Design:
+	- Architectural Design,
+	- Low Level Design: Modularization, Design Structure Charts, Pesudo Code, Flow charts
+	- Coupling and Cohesion Measures
+- Design Startegies:
+	- Functional Oriented Design,
+	- Object Oriented Design,
+	- Top-Down and Bottom-Up Design.
+- Software Measurement and Metrics:
+	- Various size Oriented Measures: Halestead's Software Science,
+	- Function Point (FP) Based Measures,
+	- Cyclomatic Complextiy Measures: Control Flow Graphs
+
+Chapter # 04: Software Testing
+- Testing Objectives:
+	- Unit Testing,
+	- Integration Testing,
+	- Acceptance Testing,
+	- Regression Testing.
+- Testing for Functionality and Testing Performance
+- Top-Down and Bottom-Up
+- Testing Strategies:
+	- Test Drivers and Test Stubs,
+	- Structural Testing (White Box Testing),
+	- Fuctional Testing (Black Box Testing),
+	- Test Data Suit Preparation,
+	- Alpha and Beta Testing of Products,
+- Static Testing Stategies: Formal Technical Review (Peer Reviews), Walk Through, Code Inspection, Compilance with Design and Coding Standards
+
+Chapter # 05: Software Maintenance
+- Software as an Evolutionary Entity
+- Need for Maintenance
+- Categories of Maintenance: Preventive, Corrective and Perfective Maintenance
+- Cost of Maintenance
+- Software Re-Engineering
+- Rreverse Engineering
+- Software Configuration Management Activities
+- Change Control Process
+- Software Version Control
+- Resource Allocation Models
+- Software Risk Analysis and Management
+
+CHAPTER #01:*INTRODUCTION*:	
+------------------------------------------------------------------------------------------------------------------------------
+- Program: A step by step instruction to perform a specific task on a computer in programming language is called program, i.e. set of instructions.
+- Software: Is a program along wiht proper documentation (requirement analysis, design, coding, testing) and user manuals which mainly includes installation guide and other manuals.
+
+Software = Program + Documentation
+
+- Software Components:
+ A program is a subset of software and it becomes software only if documentation and an operating procedure manual are prepared.
+  .Program
+  .Documents
+    . Software documentation consist all the description, programs, graphics and instructions pertaining to design, coding, testing and preparation of software.
+  .Operating Procedure (User Manual & Operational Manual)
+    . Provides information about what software is how to work with it how to install it on your system and how to control all the activities of the software.
+
+- Software Crisis:
+. Problems with software?
+  . The major problem with current scenario in software industry is, software usually overrun their development cost, they exceed their development duration limits, are usually of poor quality.
+  . As long as there were no machines, programming was no problem at all; when we had a few weak computers, programming become a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem. 
+  
+  {daigram 1}
+
+- What is Software Engineering?
+. In software industry we understand that there is an urgent need to use a proper strategies, process and development cycles so that we can produce, or we can design quality products that are within budget, with in time and must satisfy the requirement of their users.
+. Software Engineering is the systematic applicaiton of engineering principles and methods to the design, development, testing, and maintenance of software products. It inolves the use of various tools, techniques, and methodologies to manage the software development process and ensure the quality, reliabilty, and maintainability of software products.
+
+- Characteristics of Software:
+1. Software Development vs. Manufacturing:
+	1. Software is crafted through a process of coding and development.
+	2. Unlike physical products, it isn't produced in factories through a manufacturing process.
+2. No Physical Wear and Tear:
+	1. Software doesn't deteriorate overtime like physical objects.
+	2. Its performace doesn't degrade due to physical use.
+3. Custom-Built Nature:
+	1. Most software is specially designed to meet specific needs.
+	2. It's often not just a combination of pre-existing components but requires unique coding and design.
+4. Intangibilty of Software:
+	1. Software can't be touched or handled physically.
+	2. It exists as and functions within computers or digital devices.
+
+- Major Problems in Software Development:
+. Inadequate Requirements Gathering
+	. Ambiguous or incomplete requirements {client ki requirement change time ke sath hona or incomplete hona}
+	. Lack of communication between stakeholders 
+. Poor Project Management:
+	. Inadequate planning, monitoring, and control
+	. Lack of risk assessment and mitigation
+	. Multiplicity of software development life cycle
+	. Selection of wrong technology or tool for development
+. Insufficient Time and Budget:
+	. Unrealistic deadlines and resource constraints
+	. Inefficient resource allocation and prioritization
+. Lack of Skilled Personnel:
+	. Inadequate expertise in the development team
+	. High turnover rates and loss of experienced staff {developer ka non technical hona ya technologies per grip na hona}
+. Resistance to Change:
+	. Difficulty in adapting to new technologies or processes
+	. Reluctance to modify established practices or mindsets
+	. Rapid technolog advancement (time ke sath changes ko adopt na kerna or software ke codebase mein update na kerna)
+
+- Similarity and Differences from Conventional Engineering Process
+. Nature of the Product:
+	. Similarity: Both processes aim to create high-quality, reliable produce.
+	. Difference: Conventional engineering focuses on physical systems, while software engineering deals with intangible software systems
+. Design Flexibilty and Iteration:
+	. Similarity: Both processes involve iterative design and prototyping
+	. Difference: Software engineering allows for greater flexibility and ease of modification due to the non-physical nature of software
+. Quality Assurance and Testing:
+	. Similarity: Both processes emphasize the importance of testing and quality assurance to ensure product performace and reliability
+	. Difference: Conventional engineering often involves physical testing of prototypes, while software engineering relies on various types software testing, such as unit, integration, and system testing.
+. Project Management and Collaboration:
+	. Similarity: Both processes require effective project management, team collaboration, and communication and among stakeholders.
+	. Difference: Software engineering projects may involve distributed teams and rely more heavily on digital communication and collaboration tools.
+. Maintenance and Evolution:
+	. Similarity: Both processes involve maintenance and support activities to ensure the ongoing performance and reliabilty of the product
+	. Difference: Software engineering typically demands more frequent updates, patches, and evolution due to the rapidly changing nature of technology and user requirements
+. For hardware same production cost every time, for software production cost only for the first time and then only maintenance cost. This life cycle of the hardware follows the bath tub curve, while in the life cycle of the software failure intensity goes down with time.
+
+{daigram 2}
+
+- Software Quality Attributes: 
+. Correctness: The ability of the software to perform its intended tasks effectively and meet user requirements.
+. Usability: The ease with which users can learn, operate, and navigate the software.
+. Reliability: The software's consistency in producing accurate results and maintaining performance over time.
+. Efficiency: The optimal use of system resources, such as memory and processing power, to achieve desired outcomes.
+. Maintainabilty: The ease of updating, modifying, and fixing the software to accommodate changing requirements or fix issues.
+. Portabilty: The abilty of the software to operate on different platforms or environments without significant modfications.
+. Scalability: The software's capacity to handle increased workloads or user demands without compromising performance.
+. Security: The software's ability to protect against unauthorized access, data breaches, and other potential threats.
+. Modularity: The degree to which the software's components are organized into separate, manageable units that can be independently developed or updated.
+. Reusability: The potential for the software's components to be used in other applications or contexts, reducing development time and costs.
+. Testability: The ease with which the software can be tested to ensure it meets its requirements and performs as expected.
+
+- Software Process:
+	A software process (also known as software mehtodology) is a set of related activities that leads to the production of the software. These activities may involve the development of the software from the scratch, or modifying an existing system.
+. Feasiblity Study:
+	. Find abstract definition of the problem
+	. Majorly checking the financial and technical feasibility 
+	. Analysis of cost and benefit ratio 
+	. Checking availability of infrastructure and human resource
+	. Examination of alternative solution strategies
+. Requirement analysis and specification
+	. Try to understood the exact and complete requirement fo the customer and document them properly.
+	. Try to collect and analysis all data related to the project
+	. In last, a large document will be written in the natural language which will describe what the system will do without describing it how, called SRS software Requirement Specification
+	. Very critical phase because, a small error hear can result of sever problem in later stages
+. Designing
+	. We transform the requirements into a structure that is suitable for implementation of the code in a specific programming language.
+	. Overall architecture and the algorithmic strategy are choosen (Coupling and cohesion)
+	. Lastly will prepare a document called SDD (software design description), which will describe how the system will perform functionality
+. Coding 
+	. Goal of coding is to translate the design of the system into a code of programming language
+	. It affects both testing and maintenance, so also critical feature
+	. We will be discussing some guidelines for how to write maintainable and readable code.
+. Testing
+	. Because of human errors there will be a bug or fault in the code and if that bug/fault is executed it become a failure.
+	. Software testing is a process of executing a program with the intention of finding bugs or fault in the code.
+. Implementaion
+	. Software is installed on the user site and training of the user and h/w requirement check is done
+. Maintenance
+	. Any change made in the software after its official release is called maintenance. It could be beacause of various reasons.
+		. Adaptive
+		. Corrective
+		. Perfective
+
+- Software Development Life Cycle (SDLC):
+. Software development organization follows some process when developing a s/w product, in mature organization this is well defined and managed.
+. In SDLC we development s/w in a systematic and disciplined manner. SDLC will define entry and exit for every stage. It makes assessment possible, time prediction, cost prediction, scheduling, to identify faults early possible.
+. Selection of a correct development model play an important role in cost, quailty, overall success of the project.
+	. Waterfall Model:
+		. Developed in the 1970s by Winston W.Royce.
+		. Inspired by manufacturing and construction processess, where each step relies on the completion of the previous one.
+		. It is a simplest SDLC in which phases are organised in linear sequential order.
+		. It is called waterfall model as its diagrammatic representation  resembles as like a waterfall, also known as classical life cycle model.
+		{daigram 3}
+		. This type of model is basically used for the small to medium-sized projects with clear, well-defined requirements. When the technology and tools to be used are well-known and stable.
+		. Projects where minimal changes are expected during the development process, and preddictability is prioritized over adaptability.
