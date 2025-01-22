@@ -213,3 +213,13 @@ Software = Program + Documentation
 		{daigram 3}
 		. This type of model is basically used for the small to medium-sized projects with clear, well-defined requirements. When the technology and tools to be used are well-known and stable.
 		. Projects where minimal changes are expected during the development process, and preddictability is prioritized over adaptability.
+			. Advantage:
+				. Easy to understand and implement, with well-defined stages and clear milestones.
+				. Each phase has well defined input and output, phases are processed and completed one at a time. Phases don't overlap.
+				. Low cost and easy to schedule, as all staff don't work concurrently on the same project, so can work on different projects.
+			. Disadvantage:
+				. Not suitable to accommodate any change or iteration once development has begun. It is always difficult to acquire of the requirement in the starting.
+				. Working version is produced in the last level, so not good for large size sophisticated projects.
+				. High amounts of risk and uncertainty.
+	. Prototype Model:
+		. 
