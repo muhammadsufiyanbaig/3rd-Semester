@@ -3,7 +3,7 @@
 ---
 
 ## Chapter # 01: Introduction
-- [Introduction to Software Engineering](./Chapter1/Notes.md)
+- [Introduction to Software Engineering](./Chapter1/Readme.md)
 - Software Components
 - Software Characteristics
 - Software Crisis
