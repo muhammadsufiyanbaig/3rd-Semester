@@ -105,33 +105,33 @@
     - Examination of alternative solution strategies
 
   ### **Requirement analysis and specification**:
-    - Try to understand the exact and complete requirement of the customer and document them properly.
-    - Try to collect and analyze all data related to the project
-    - In the end, a large document will be written in the natural language which will describe what the system will do without describing how, called SRS (Software Requirement Specification)
-    - Very critical phase because a small error here can result in severe problems in later stages
+  - Try to understand the exact and complete requirement of the customer and document them properly.
+  - Try to collect and analyze all data related to the project
+  - In the end, a large document will be written in the natural language which will describe what the system will do without describing how, called SRS (Software Requirement Specification)
+  - Very critical phase because a small error here can result in severe problems in later stages
 
-  ### Designing:
-    - We transform the requirements into a structure that is suitable for implementation of the code in a specific programming language.
-    - Overall architecture and the algorithmic strategy are chosen (Coupling and cohesion)
-    - Lastly, we will prepare a document called SDD (Software Design Description), which will describe how the system will perform functionality
+  ### **Designing**:
+  - We transform the requirements into a structure that is suitable for implementation of the code in a specific programming language.
+  - Overall architecture and the algorithmic strategy are chosen (Coupling and cohesion)
+  - Lastly, we will prepare a document called SDD (Software Design Description), which will describe how the system will perform functionality
 
   ### **Coding**:
-    - The goal of coding is to translate the design of the system into a code of programming language
-    - It affects both testing and maintenance, so it is also a critical feature
-    - We will be discussing some guidelines for how to write maintainable and readable code.
+  - The goal of coding is to translate the design of the system into a code of programming language
+  - It affects both testing and maintenance, so it is also a critical feature
+  - We will be discussing some guidelines for how to write maintainable and readable code.
 
   ### **Testing**:
-    - Because of human errors, there will be a bug or fault in the code and if that bug/fault is executed it becomes a failure.
-    - Software testing is a process of executing a program with the intention of finding bugs or faults in the code.
+  - Because of human errors, there will be a bug or fault in the code and if that bug/fault is executed it becomes a failure.
+  - Software testing is a process of executing a program with the intention of finding bugs or faults in the code.
 
   ### **Implementation**:
-    - Software is installed on the user site and training of the user and hardware requirement check is done
+  - Software is installed on the user site and training of the user and hardware requirement check is done
 
   ### **Maintenance**:
-    - Any change made in the software after its official release is called maintenance. It could be because of various reasons:
-      - Adaptive
-      - Corrective
-      - Perfective
+  - Any change made in the software after its official release is called maintenance. It could be because of various reasons:
+    - Adaptive
+    - Corrective
+    - Perfective
 
 ## **Software Development Life Cycle (SDLC)**:
   - Software development organizations follow some process when developing a software product; in mature organizations, this is well defined and managed.
