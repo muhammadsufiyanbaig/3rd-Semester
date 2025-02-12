@@ -96,7 +96,7 @@
 
 ## **Software Process**:
   A software process (also known as software methodology) is a set of related activities that leads to the production of the software. These activities may involve the development of the software from scratch, or modifying an existing system.
-  
+
   ### **Feasibility Study**:
     - Find abstract definition of the problem
     - Majorly checking the financial and technical feasibility
@@ -110,7 +110,7 @@
     - In the end, a large document will be written in the natural language which will describe what the system will do without describing how, called SRS (Software Requirement Specification)
     - Very critical phase because a small error here can result in severe problems in later stages
 
-  ### **Designing**:
+  ### Designing:
     - We transform the requirements into a structure that is suitable for implementation of the code in a specific programming language.
     - Overall architecture and the algorithmic strategy are chosen (Coupling and cohesion)
     - Lastly, we will prepare a document called SDD (Software Design Description), which will describe how the system will perform functionality
