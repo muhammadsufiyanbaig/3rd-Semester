@@ -5,7 +5,7 @@
 - `Program`: A step by step instruction to perform a specific task on a computer in programming language is called program, i.e. set of instructions.
 - `Software`: Is a program along with proper documentation (requirement analysis, design, coding, testing) and user manuals which mainly includes installation guide and other manuals.
 
-`Software = Program + Documentation`
+### `Software = Program + Documentation`
 
 ## **Software Components**:
   A program is a subset of software and it becomes software only if documentation and an operating procedure manual are prepared.
@@ -96,30 +96,37 @@
 
 ## **Software Process**:
   A software process (also known as software methodology) is a set of related activities that leads to the production of the software. These activities may involve the development of the software from scratch, or modifying an existing system.
+  
   ### **Feasibility Study**:
     - Find abstract definition of the problem
     - Majorly checking the financial and technical feasibility
     - Analysis of cost and benefit ratio
     - Checking availability of infrastructure and human resource
     - Examination of alternative solution strategies
+
   ### **Requirement analysis and specification**:
     - Try to understand the exact and complete requirement of the customer and document them properly.
     - Try to collect and analyze all data related to the project
     - In the end, a large document will be written in the natural language which will describe what the system will do without describing how, called SRS (Software Requirement Specification)
     - Very critical phase because a small error here can result in severe problems in later stages
+
   ### **Designing**:
     - We transform the requirements into a structure that is suitable for implementation of the code in a specific programming language.
     - Overall architecture and the algorithmic strategy are chosen (Coupling and cohesion)
     - Lastly, we will prepare a document called SDD (Software Design Description), which will describe how the system will perform functionality
+
   ### **Coding**:
     - The goal of coding is to translate the design of the system into a code of programming language
     - It affects both testing and maintenance, so it is also a critical feature
     - We will be discussing some guidelines for how to write maintainable and readable code.
+
   ### **Testing**:
     - Because of human errors, there will be a bug or fault in the code and if that bug/fault is executed it becomes a failure.
     - Software testing is a process of executing a program with the intention of finding bugs or faults in the code.
+
   ### **Implementation**:
     - Software is installed on the user site and training of the user and hardware requirement check is done
+
   ### **Maintenance**:
     - Any change made in the software after its official release is called maintenance. It could be because of various reasons:
       - Adaptive
@@ -130,7 +137,7 @@
   - Software development organizations follow some process when developing a software product; in mature organizations, this is well defined and managed.
   - In SDLC, we develop software in a systematic and disciplined manner. SDLC will define entry and exit for every stage. It makes assessment possible, time prediction, cost prediction, scheduling, and identifying faults early possible.
   - Selection of a correct development model plays an important role in cost, quality, and overall success of the project.
-    - **Waterfall Model**:
+    ### **Waterfall Model**:
       - Developed in the 1970s by Winston W. Royce.
       - Inspired by manufacturing and construction processes, where each step relies on the completion of the previous one.
       - It is the simplest SDLC in which phases are organized in linear sequential order.
