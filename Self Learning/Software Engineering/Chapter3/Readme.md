@@ -84,4 +84,59 @@ Coupling and cohesion are two parameters on which we can understand the quality 
 **Coupling:** 
 The measure of interdependence of one module over another module
 
-![Diagram 4](4.png) ![Diagram 5](5.png)
+![Diagram 4](4.png) ![Diagram 5](5.png) ![Diagram 6](6.png)
+
+**Types of Coupling**
+**1. Content Coupling (Worst)**
+   - One module directly modifies another module’s data or logic.
+   - Example: A function directly accessing another function’s variables.
+**2. Common Coupling**
+   - Multiple modules share global data.
+   - Example: Many functions using the same global variable.
+**3. External Coupling**
+   - Modules rely on external systems or shared resources.
+   - Example: Using external files, databases, or APIs in a tightly coupled manner.
+**4. Control Coupling**
+   - One module controls another’s behavior by passing control variables.
+   - Example: Passing a flag to a function that dictates what it should do.
+**5. Stamp Coupling**
+   - Modules share a data structure but do not need all of it.
+   - Example: Passing an entire object when only some fields are required.
+**6. Data Coupling (Best)**
+   - Modules share only the necessary data.
+   - Example: A function receives only the required parameters.
+
+- **Lower coupling (Data Coupling) is ideal** because it makes the system more modular, flexible, and maintainable.
+- **Higher coupling (Content Coupling) should be avoided** as it increases dependency and reduces reusability.
+
+**Types of Cohesion**
+**1. Coincidental Cohesion (Lowest - Worst)**
+   - Unrelated tasks are grouped into a single module.
+   - Example: A utility function that handles logging, file operations, and string manipulation in one place.
+
+**2. Logical Cohesion**
+   - Similar types of operations are grouped but are not necessarily related in function.
+   - Example: A single module handling multiple input formats like JSON, XML, and CSV.
+
+**3. Temporal Cohesion**
+   - Functions that execute at the same time are grouped together.
+   - Example: Initialization tasks such as opening files, creating database connections, and setting environment variables.
+
+**4. Procedural Cohesion**
+   - Functions are grouped based on a sequence of execution.
+   - Example: A module that processes a payment by verifying details, deducting balance, and generating a receipt.
+
+**5. Communicational Cohesion**
+   - Functions operate on the same data and contribute to a single task.
+   - Example: A module that retrieves student data, processes it, and generates a report.
+
+**6. Sequential Cohesion**
+   - The output of one function is the input to another function within the module.
+   - Example: A data processing module that first normalizes data, then filters it, and finally stores it.
+
+**7. Functional Cohesion (Highest - Best)**
+   - A module performs a single well-defined task.
+   - Example: A function that only calculates the area of a circle based on input radius.
+
+- **Higher cohesion (Functional Cohesion) is ideal** as it improves maintainability, readability, and reusability.
+- **Lower cohesion (Coincidental Cohesion) should be avoided** as it leads to complex and unmanageable code.
