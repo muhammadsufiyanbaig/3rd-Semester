@@ -223,3 +223,49 @@ ISO 9000 is a series of international standards related to quality management an
     - Requirements determination and communication Product design and development Verification, validation, and testing Release, delivery, and post-delivery support.
 - Measurement, Analysis, and Improvement:
     - Monitoring and measurement of processes and products Internal audits to ensure compliance Corrective and preventive actions Continual improvement of the QMS.
+
+1. **ISO 9000 Principles**
+    1. Customer focus 2. Leadership
+    3. Process approach
+    4. Continual improvement
+2. **ISO 9001:2015 - Quality Management Systems**
+    1. Applicable to any organization size and industry
+    2. Focus on customer satisfaction, regulatory compliance, and improvement
+    3. Requirements cover context, leadership, planning, support, operation, evaluation, and improvement
+3. **ISO/IEC/IEEE 9003:2018 - Software Engineering**
+    1. Guidance for applying ISO 9001:2015 to software engineering
+    2. Covers software development, supply, acquisition, operation, and maintenance
+    3. Addresses both product and process quality aspects
+    4. Applicable to various software development methodologies 
+
+**Implementation Steps for ISO 9000 in Software Engineering**
+- Obtain top management commitment.
+- Establish a quality management system.
+- Train and educate employees.
+- Document processes, procedures, and policies Monitor, measure, and analyze processes.
+- Implement improvements and corrective actions • Conduct internal audits.
+- Seek third-party certification (ISO 9001).
+
+## CAPABILITY MATURATY MODEL
+- CMM is a strategy for improving the software process, to generate quality software.
+- The Capability Maturity Model (CMM) is a development model created after a study of data collected from organizations that contracted with the U.S. Department of Defence, who funded the research. The term "maturity" relates to the degree of formality and optimization of processes, from ad hoc practices, to formally defined steps, to managed result metrics, to active optimization of the processes.
+- It is use to judge the maturity of s/w process an organization and to identify the key practise that are required to increase the maturity of theses process. There are five levels of the CMM
+![Diagram 11](11.png)
+1. **Initial (process unpredictable and poorly controlled)**
+- No engineering management, everything done on ad hoc basis
+- Software process is unpredictable with respect to time and cost
+- It depends on current staff, as staff change so does the process
+2. **Repeatable (basic project management)**
+- Planning and managing of new projects are based on the experience with the similar projects
+- Realistic plans based on the performance based on the previous projects
+3. **Defined (process standardization)**
+- Process of developing and maintaining s/w across the organization is documented including engineering and management.
+- Training programs are implemented to ensure that the staff have skills and
+- knowledge required
+- Risk management
+4. **Managed (Quantitative measurement)**
+- Organization set quantitative goals for both product and process.
+- Here process is predictable both with respect to time and cost
+5. **Optimized (continuous process improvement)**
+- Here organization analysis defects to determine their causes and goals is to preventing the occurrence of defects
+- Here company continuously improve the process performance of their projects
