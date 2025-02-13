@@ -89,22 +89,22 @@ The measure of interdependence of one module over another module
 **Types of Coupling**
 **1. Content Coupling (Worst)**
    - One module directly modifies another module’s data or logic.
-   - Example: A function directly accessing another function’s variables.
+   - `Example:` A function directly accessing another function’s variables.
 **2. Common Coupling**
    - Multiple modules share global data.
-   - Example: Many functions using the same global variable.
+   - `Example:` Many functions using the same global variable.
 **3. External Coupling**
    - Modules rely on external systems or shared resources.
-   - Example: Using external files, databases, or APIs in a tightly coupled manner.
+   - `Example:` Using external files, databases, or APIs in a tightly coupled manner.
 **4. Control Coupling**
    - One module controls another’s behavior by passing control variables.
-   - Example: Passing a flag to a function that dictates what it should do.
+   - `Example:` Passing a flag to a function that dictates what it should do.
 **5. Stamp Coupling**
    - Modules share a data structure but do not need all of it.
-   - Example: Passing an entire object when only some fields are required.
+   - `Example:` Passing an entire object when only some fields are required.
 **6. Data Coupling (Best)**
    - Modules share only the necessary data.
-   - Example: A function receives only the required parameters.
+   - `Example:` A function receives only the required parameters.
 
 - **Lower coupling (Data Coupling) is ideal** because it makes the system more modular, flexible, and maintainable.
 - **Higher coupling (Content Coupling) should be avoided** as it increases dependency and reduces reusability.
@@ -112,31 +112,93 @@ The measure of interdependence of one module over another module
 **Types of Cohesion**
 **1. Coincidental Cohesion (Lowest - Worst)**
    - Unrelated tasks are grouped into a single module.
-   - Example: A utility function that handles logging, file operations, and string manipulation in one place.
+   - `Example:` A utility function that handles logging, file operations, and string manipulation in one place.
 
 **2. Logical Cohesion**
    - Similar types of operations are grouped but are not necessarily related in function.
-   - Example: A single module handling multiple input formats like JSON, XML, and CSV.
+   - `Example:` A single module handling multiple input formats like JSON, XML, and CSV.
 
 **3. Temporal Cohesion**
    - Functions that execute at the same time are grouped together.
-   - Example: Initialization tasks such as opening files, creating database connections, and setting environment variables.
+   - `Example:` Initialization tasks such as opening files, creating database connections, and setting environment variables.
 
 **4. Procedural Cohesion**
    - Functions are grouped based on a sequence of execution.
-   - Example: A module that processes a payment by verifying details, deducting balance, and generating a receipt.
+   - `Example:` A module that processes a payment by verifying details, deducting balance, and generating a receipt.
 
 **5. Communicational Cohesion**
    - Functions operate on the same data and contribute to a single task.
-   - Example: A module that retrieves student data, processes it, and generates a report.
+   - `Example:` A module that retrieves student data, processes it, and generates a report.
 
 **6. Sequential Cohesion**
    - The output of one function is the input to another function within the module.
-   - Example: A data processing module that first normalizes data, then filters it, and finally stores it.
+   - `Example:` A data processing module that first normalizes data, then filters it, and finally stores it.
 
 **7. Functional Cohesion (Highest - Best)**
    - A module performs a single well-defined task.
-   - Example: A function that only calculates the area of a circle based on input radius.
+   - `Example:` A function that only calculates the area of a circle based on input radius.
 
 - **Higher cohesion (Functional Cohesion) is ideal** as it improves maintainability, readability, and reusability.
 - **Lower cohesion (Coincidental Cohesion) should be avoided** as it leads to complex and unmanageable code.
+
+## Design Approach
+
+There are two popular apporach using which design is done
+
+![Diagram 7](7.jpg)   
+
+**1. Top-Down Approach**  
+The **Top-Down Approach** starts with a **high-level design** and breaks it down into smaller, detailed components. It follows a hierarchical structure, where the main system is divided into submodules.
+
+**Process:**  
+1. Define the overall system structure.  
+2. Break the system into smaller submodules.  
+3. Design each submodule in detail.  
+4. Implement and integrate the submodules.  
+
+**Advantages:**  
+- Provides a clear and organized system structure.  
+- Easy to understand and manage at the initial stages.  
+- Helps in early identification of design flaws.  
+- Ensures consistency across modules.  
+
+**Disadvantages:**  
+- Requires detailed planning before implementation.  
+- Difficult to test as submodules are not functional independently.  
+- Can be rigid and may require significant changes if issues arise later.  
+
+**2. Bottom-Up Approach**  
+The **Bottom-Up Approach** starts with designing and implementing **small, reusable components**, which are later integrated to form the complete system.
+
+**Process:**  
+1. Develop individual components first.  
+2. Test and refine the components independently.  
+3. Combine the components to form larger modules.  
+4. Integrate modules to create the complete system.  
+
+**Advantages:**  
+- Reusable components enhance modularity and flexibility.  
+- Easier to test as each component is functional independently.  
+- Faster development as small modules can be built and tested in parallel.  
+- Adaptable to changes without affecting the entire system.  
+
+**Disadvantages:**  
+- Lacks a clear high-level system design in the early stages.  
+- Integration can be complex and time-consuming.  
+- May lead to inconsistencies in the system if not properly planned.  
+
+**Key Differences:**
+
+| Feature           | Top-Down Approach | Bottom-Up Approach |
+|------------------|-----------------|----------------|
+| **Development Focus** | System as a whole | Individual components |
+| **Implementation** | Starts from main system | Starts from smaller components |
+| **Testing** | Done after all submodules are developed | Done at individual module level |
+| **Flexibility** | Less flexible | More flexible |
+| **Best Suited For** | Large systems requiring high-level planning | Modular systems with reusable components |
+
+![Diagram 8](8.png) 
+
+- The **Top-Down Approach** is best for **structured, large-scale projects** where high-level planning is crucial.  
+- The **Bottom-Up Approach** is ideal for **modular and flexible designs**, especially in **object-oriented programming (OOP)**.  
+
