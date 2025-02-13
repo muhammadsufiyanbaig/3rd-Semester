@@ -19,7 +19,7 @@
   - Evolutionary Development Models
   - Iterative Enhancement Models
 
-## Chapter # 02: Software Requirement Specifications (SRS)
+## [Chapter # 02: Software Requirement Specifications (SRS)](./Chapter2/Readme.md)
 - Requirement Engineering Process:
   - Elicitation
   - Analysis
@@ -35,7 +35,7 @@
 - Software Quality Assurance (SQA): Verification and Validation
 - SQA Plans, Software Quality Framework, ISO 9000 Models, SEI-CMM Model
 
-## Chapter # 03: Software Design
+## [Chapter # 03: Software Design](./Chapter3/Readme.md)
 - Basic Concept of Software Design:
   - Architectural Design
   - Low Level Design: Modularization, Design Structure Charts, Pseudo Code, Flow charts
