@@ -1,4 +1,4 @@
-# CHAPTER #01: SOFTWARE REQUIREMENT & SPECIFICATIONS
+# CHAPTER #02: SOFTWARE REQUIREMENT & SPECIFICATIONS
 
 ---
 
@@ -101,4 +101,23 @@ DFD uses hierarchy to maintain transparency thus multilevel DFD's can be created
 **Control Flow Daigram/ Control Flow Chart/ Flow Chart**
 A flow chart is graphical representation of how to control flow during the execution of the program. It use the following symbols to represent a system's control flow.
 ![Diagram 6](6.png)
+
+## Data Dictionary
+- `Purpose:` Serves as a repository for data item details in Data Flow Diagrams, ensuring consistent definitions between customers and developers.
+- `Content:` Includes data item name, aliases, and purpose, promoting clearunderstanding.
+- `Relationships & Range:` Records data item relationships and value ranges (e.g., marks between 0-100).
+- `Data Flows & Structures:` Tracks process interactions with data items anddocuments their structure or composition.
+- `Role in Requirements:` Essential in initial stages for defining customer data items, aligning developer and customer understanding.
+
+![Diagram 7](7.jpg)
+
+## Entity Relational Daigram (ER Daigram)
+- ER Diagram a non-technical design method works on conceptual level based on the perception of the real world.
+- E-R data model was developed to facilitate software designers by allowing specification of an enterprise schema that represents the overall logical structure of a database.
+- Three main constructs are data entities, their relationships and their associated attributes.
+
+![Diagram 8](8.png)
+
+### `Example:`
+![Diagram 9](9.png)
 
