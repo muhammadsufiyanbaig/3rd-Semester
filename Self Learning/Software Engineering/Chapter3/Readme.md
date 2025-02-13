@@ -84,3 +84,4 @@ Coupling and cohesion are two parameters on which we can understand the quality 
 **Coupling:** 
 The measure of interdependence of one module over another module
 
+![Diagram 4](4.png) ![Diagram 5](5.png)
