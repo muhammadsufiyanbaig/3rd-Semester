@@ -140,3 +140,86 @@ A flow chart is graphical representation of how to control flow during the execu
 #### **Relation to ER Diagrams**
 - **Decision Tables**: Not typically represented in an ER diagram but can be modeled as an entity storing rules.
 - **Decision Trees**: Can be represented in an ER diagram by entities like `Decision`, `Condition`, and `Outcome` with relationships.
+
+## Documentation 
+- After have final set of requirements it is also necessary to document them properly in a standard format, so that can be understood easily even by non- technical person.
+- Here IEEE provides standard for SRS documents in IEEE830, using which we can make SRS document more readable, modifiable, and a format which can be followed through the world.
+### `IEEE Standard for SRS`
+1. **Introduction**
+    - Purpose
+    - Scope/Intended Audience
+    - Definition, Acronyms and Abbreviation
+    - References / Contact Information / SRS team member
+    - Overview
+2. **Overall Description**
+    - Product Perspective
+    - Product Functions
+    - User Characteristics
+    - General Constraints
+    - Assumptions and dependencies
+3. **Specific Requirement**
+    - External interface requirements(user/hardware/software interface) 3.2-Functional requirements
+    - Performance requirements
+    - Design constraints(Standards compliance/hardware limitations)
+    - Logical database requirements
+    - Software system attributes(Reliability, availability, Security, Maintainability)
+4. **Change Management Process**
+5. **Document Approvel**
+    - Table, Daigrams and flowchart
+    - Appendices
+    - Index
+
+## Requirement Review
+Before finalising the requirement one more review specially by a third party, who a master in the industry is advisable, to have a fresh look over the system, and can mentions any points if missed by team.
+
+## Software Quality Assurance (SQA)
+- `Definition:` SQA is a process ensuring software products meet quality standard and requirements.
+- `Objective:` Prevent defects, improve quality, and ensure customer satisfaction.
+- `Process:` Implements quality control and management activities throughout development.
+- `Techniques:` Uses code reviews, inspections, audits, and testing to evaluate software quality.
+- `Standards:` Adheres to international standards like ISO 9001, IEEE 730, and CMMI.
+- `Quality Attributes:` Focuses on reliability, maintainability, usability, efficiency, and functionality.
+- `Continuous Improvement:` Monitors processes and products to identify and implement improvements.
+- `Metrics:` Employs metrics like defect density and code coverage to evaluate quality.
+- `Training:` Emphasizes skill development for developers and testers to meet quality standards.
+- `Documentation:` Requires proper documentation for transparency and traceability.
+
+**Validation/Black Box**
+- Validation ensures that the software product meets the end-user requirements and is fit for its intended purpose, "Are we Building the right product". Ensures that the product meets its design specifications.
+- Focuses on static analysis techniques. Checks for consistency, completeness, and correctness.
+    - Code reviews.
+    - Static analysis tools.
+- Inspection of requirements, design, and code documentation.
+
+**Verification/White Box**
+- Verification ensures that the software product is designed and developed according to the specified requirements and standards. "Are we building the product right".
+- Process of Ensuring that the product meets its design specifications.
+- Focuses on static analysis techniques. Checks for consistency, completeness, and correctness.
+    - Code reviews.
+    - Static analysis tools.
+- Inspection of requirements, design, and code documentation.
+
+## Software Quality Factors
+- The various factors, which influence the software, are termed as software factors. They can be broadly divided into two categories.
+    - The first category of the factors is of those that can be measured directly such as the number of logical errors.
+    - Second category clubs those factors which can be measured only indirectly. For example, maintainability but each of the factors is to be measured to check for the content and the quality control.
+
+- Several models of software quality factors and their categorization have been suggested over the years. The classic model of software quality factors, suggested by McCall in 1977. The 11 factors are grouped into three categories.
+    - `Product operation factors` - Correctness, Reliability, Efficiency, Integrity, Usability.
+    - `Product revision factors` - Maintainability, Flexibility, Testability.
+    - `Product transition factors` - Portability, Reusability, Interoperability.
+
+**`ISO 9000 Models in Software Engineering`**
+ISO 9000 is a series of international standards related to quality management and assurance. In the context of software engineering, these standards provide guidelines for implementing effective processes and ensuring high-quality software products.
+
+**Key Components of ISO 9000**
+- Quality Management System (QMS):
+    - Defines policies and objectives for quality, Documentation of procedures and processes, Monitoring, measurement, and analysis of processes, Improvement opportunities and corrective actions.
+- Management Responsibility:
+    - Top management commitment to quality Establishment of a quality policy Ensuring adequate resources for QMS implementation Reviewing QMS performance regularly.
+- Resource Management:
+    - Provision of necessary resources (human, infrastructure, work environment) Competence and training of personnel Infrastructure maintenance and improvement.
+- Product Realization:
+    - Requirements determination and communication Product design and development Verification, validation, and testing Release, delivery, and post-delivery support.
+- Measurement, Analysis, and Improvement:
+    - Monitoring and measurement of processes and products Internal audits to ensure compliance Corrective and preventive actions Continual improvement of the QMS.
