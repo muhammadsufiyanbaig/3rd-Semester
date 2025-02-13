@@ -17,7 +17,7 @@ The hardest part of building a software is deciding precisely what is to be buil
 - `Unknown requirement`: Forgotten by stake holder because that are not needed right now.
 - `Undreament requirement`: StakeHolder is unable to think of new requirement due to limited domain knowledge.
 
-![Diagram 1](1.jpg)
+![Diagram 1](1.png)
 
 *There are majorly four steps in requirement analysis·*
 - `Requirement Elicitation`: Gathering of Requirement.
@@ -64,4 +64,41 @@ Here participants are made to write the requirement on a piece of paper, then th
 - These are structured description of the user requirement. It is a narrative which describe the sequence of events from user's perspective.
 - Use case diagrams are graphical representation to show the system at different levels.
 - They are some times supportive my the activity diagrams, to understand the work flow.
+
+## Data Flow Daigram
+
+**Requirement analysis**
+- In this phase we analysis all the set of requirements to find any inconsistency or conflicts.
+- In requirement gathering phase our all concentration was on getting all the set of requirements but now, we see how many requirements are contradictory to each other or requires further exploration to be considered further.
+- Different tools can be used Data flow diagram, Control flow diagram, ER diagram etc
+
+**Data Flow Diagram**
+A data flow diagram or bubble chart is a graphical representation of the flow of data through a system. It clarifies systems requirements and identify major transformations.
+DFD represent a system at different level of abstraction. DFD may be Partitioned into levels that represent increasing information flow and functional details.
+
+![Diagram 2](2.png)
+
+`Components of DFD(Data Flow Daigram):`
+- Function/Process
+- Data Store
+- External Entity
+- Data Flow
+
+DFD uses hierarchy to maintain transparency thus multilevel DFD's can be created. Levels of DFD are as follows:
+
+- `O-level DFD`: It represents the entire system as a single bubble and provides an overall picture of the system.
+![Diagram 3](3.svg)
+
+- `1-level DFD`: It represents the main functions of the system and how they interact with each other.
+![Diagram 4](4.jpg)
+
+- `2-level DFD`: It represnts the processes within each function of the system and how they interact with each other.
+![Diagram 5](5.png)
+
+
+## Control Flow Daigram 
+
+**Control Flow Daigram/ Control Flow Chart/ Flow Chart**
+A flow chart is graphical representation of how to control flow during the execution of the program. It use the following symbols to represent a system's control flow.
+![Diagram 6](6.png)
 
