@@ -28,6 +28,7 @@ Software Designing in 3-step process:
 ![Diagram 2](2.png)
 ## Detailed design/Low level design
 - In this, specification of internal elements of all modules their functions, their processing methods, data structure, algorithms, everything is defined properly.
+
 ![Diagram 3](3.png)
 
 ## Modularity
