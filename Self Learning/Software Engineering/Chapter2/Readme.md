@@ -121,3 +121,22 @@ A flow chart is graphical representation of how to control flow during the execu
 ### `Example:`
 ![Diagram 9](9.png)
 
+## Decision Tables
+- A decision table is a brief visual representation for specifying which actions to perform depending on given conditions.
+- A decision table is a good way to settle with different combination inputs with their corresponding outputs.
+- Decision tables are very much helpful in requirements management and test design techniques. It provides a regular way of starting complex business rules, that is helpful for developers as well as for testers.
+![Diagram 10](10.jpg)
+
+
+### **Decision Table vs. Decision Tree in ER Diagrams**
+| Feature          | Decision Table | Decision Tree |
+|-----------------|---------------|--------------|
+| **Structure**   | Tabular format | Hierarchical (Tree) |
+| **Visualization** | Less intuitive | More intuitive |
+| **Complexity Handling** | Better for complex rules | Suitable for simple to moderate rules |
+| **Redundancy** | Avoids redundancy | May have redundancy |
+| **Best Used For** | Rule-based systems, validation | Decision-making processes, AI models |
+
+#### **Relation to ER Diagrams**
+- **Decision Tables**: Not typically represented in an ER diagram but can be modeled as an entity storing rules.
+- **Decision Trees**: Can be represented in an ER diagram by entities like `Decision`, `Condition`, and `Outcome` with relationships.
