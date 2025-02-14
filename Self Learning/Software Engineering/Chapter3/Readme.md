@@ -252,7 +252,7 @@ Here we try to estimate about two things time and cost of development
 ### - `Effort = Duration X Team Size`
 
 
-
+## Direct Estimation (White Box)
 ## Problem 1: Estimating Effort, Cost, and Duration for a Full-Stack Application
 
 A company is developing a full-stack web application with an estimated **size of 100 KLOC (Kilo Lines of Code)**.  
@@ -419,3 +419,88 @@ Thus, the expected project duration is **6.33 months (~6 months and 10 days).**
 - **Estimated Duration (E)**: ~6.33 months based on PERT.
 
 ---
+
+## InDirect Estimation (Black Box)
+
+- Here we use functional points to predict the cost of development, it is a better technique in general compare to kloc because it considers the logical complexity of the product, as in general it is not necessary that the larger the project the more complex it will be code.
+- (size oriented, function oriented, extended functions point matrices) here we say that the size of the software is directly dependent on the number and type of different functions it performs.
+- 2D- in 2D FP we consider only information domain where we consider mainly five factors, as follows:
+  - `No of inputs:` Each user data input is counted.
+  - `No of outputs:` Output refers to reports, screen and error messages.
+  - `No of inquiries:` The no of distinct interactive queries made by user which requires specific actions by the system.
+  - `No of files:` Each logical file. So either can be data structure or physical files.
+  - `No of external interfaces:` Data files on tapes, disk etc. and other interfaces that are used to transmit information to other systems are counted.
+
+**Function Point Calculation**
+![Daigram 9](9.png)
+
+## Indirect Estimation (Black Box)
+### **Indirect Estimation Using Function Point (FP) Approach**  
+**Scenario:**  
+A **Full-Stack Web Application** is being developed. We estimate the **Function Points (FP)** based on project complexity.  
+
+#### **Given Data:**  
+- **Function Points (FP) = 500**
+- **Productivity = 10 FP/person-month** (based on past experience)
+- **Team Size = 3 developers**  
+  - 1 **Most Likely (M)**
+  - 2 **Pessimistic (P)**  
+
+---
+
+### **Step 1: Calculate Effort**  
+Using the formula:
+$$ 
+\[
+\text{Effort} = \frac{\text{Size (FP)}}{\text{Productivity}}
+\]
+$$ 
+$$ 
+\[
+\text{Effort} = \frac{500}{10} = 50 \text{ person-months}
+\]
+$$ 
+---
+
+### **Step 2: Calculate Duration**  
+Using the formula:
+$$ 
+\[
+\text{Duration} = \frac{\text{Effort}}{\text{Team Size}}
+\]
+$$ 
+$$ 
+\[
+\text{Duration} = \frac{50}{3} \approx 16.67 \text{ months}
+\]
+$$ 
+So, the project will take **~16.67 months (~1 year and 4.5 months).**
+
+---
+
+### **Step 3: Calculate Productivity**  
+$$ 
+\[
+\text{Productivity} = \frac{\text{Size}}{\text{Effort}}
+\]
+$$ 
+$$ 
+\[
+\text{Productivity} = \frac{500}{50} = 10 \text{ FP/person-month}
+\]
+$$ 
+---
+
+### **Final Results:**  
+| Metric         | Formula                          | Value |
+|---------------|----------------------------------|-------|
+| **Effort**    | $$ \frac{500}{10} $$            | 50 person-months |
+| **Duration**  | $$ \frac{50}{3} $$              | ~16.67 months |
+| **Productivity** | $$ \frac{500}{50} $$         | 10 FP/person-month |
+
+
+---
+  
+- The project **requires 50 person-months of effort**.  
+- With a **team of 3 developers**, the **expected duration is ~16.67 months**.  
+- The team maintains a **productivity rate of 10 FP/person-month**.  
