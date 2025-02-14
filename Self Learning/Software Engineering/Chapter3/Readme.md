@@ -432,6 +432,7 @@ Thus, the expected project duration is **6.33 months (~6 months and 10 days).**
   - `No of external interfaces:` Data files on tapes, disk etc. and other interfaces that are used to transmit information to other systems are counted.
 
 **Function Point Calculation**
+
 ![Daigram 9](9.png)
 
 ## Indirect Estimation (Black Box)
@@ -450,45 +451,54 @@ A **Full-Stack Web Application** is being developed. We estimate the **Function 
 
 ### **Step 1: Calculate Effort**  
 Using the formula:
+
 $$ 
 \[
 \text{Effort} = \frac{\text{Size (FP)}}{\text{Productivity}}
 \]
 $$ 
+
 $$ 
 \[
 \text{Effort} = \frac{500}{10} = 50 \text{ person-months}
 \]
 $$ 
+
 ---
 
 ### **Step 2: Calculate Duration**  
 Using the formula:
+
 $$ 
 \[
 \text{Duration} = \frac{\text{Effort}}{\text{Team Size}}
 \]
 $$ 
+
 $$ 
 \[
 \text{Duration} = \frac{50}{3} \approx 16.67 \text{ months}
 \]
-$$ 
+$$
+
 So, the project will take **~16.67 months (~1 year and 4.5 months).**
 
 ---
 
-### **Step 3: Calculate Productivity**  
+### **Step 3: Calculate Productivity** 
+
 $$ 
 \[
 \text{Productivity} = \frac{\text{Size}}{\text{Effort}}
 \]
 $$ 
+
 $$ 
 \[
 \text{Productivity} = \frac{500}{50} = 10 \text{ FP/person-month}
 \]
 $$ 
+
 ---
 
 ### **Final Results:**  
