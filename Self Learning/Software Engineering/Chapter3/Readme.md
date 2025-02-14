@@ -356,6 +356,7 @@ $$
 
 #### **2. Expected Total Effort**
 If they continue at **2.5 KLOC per person-month**, the total effort required will be:
+
 $$
 \[
 \text{Effort} = \frac{\text{Size}}{\text{Productivity}}
