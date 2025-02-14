@@ -533,11 +533,11 @@ $$
 
 ### **Final Results:**
 
-| Metric           | Formula                                                                 | Value              |
-|-----------------|------------------------------------------------------------------------|--------------------|
-| **Effort**       | <br> $$ \frac{\text{Size (FP)}}{\text{Productivity}} = \frac{500}{10} $$   | 50 person-months   |
-| **Duration**     | <br> $$ \frac{\text{Effort}}{\text{Team Size}} = \frac{50}{3} $$           | ~16.67 months      |
-| **Productivity** | <br> $$ \frac{\text{Size (FP)}}{\text{Effort}} = \frac{500}{50} $$         | 10 FP/person-month |
+| Metric           | Formula                                                 | Value              |
+|-----------------|---------------------------------------------------------|--------------------|
+| **Effort**       | `Size (FP) / Productivity = 500 / 10`                   | 50 person-months   |
+| **Duration**     | `Effort / Team Size = 50 / 3`                           | ~16.67 months      |
+| **Productivity** | `Size (FP) / Effort = 500 / 50`                         | 10 FP/person-month |
 
 ---
 
@@ -606,10 +606,11 @@ Total **Unadjusted FP** = **10 + 15 + 5 + 20 + 10 = 60 FP**
 |--------------------------|------------------------------------------|--------------------------|
 | Uses Complexity Factors? | Yes                                      | No                       |
 | More Realistic?          | Yes                                      | No                       |
-| Formula                  | \( \text{Unadjusted FP} \times \text{VAF} \) | \( \text{Sum of all function points} \) |
-| Example Calculation      | \( 500 \times 1.2 = 600 \) FP            | \( 10 + 15 + 5 + 20 + 10 = 60 \) FP |
+| Formula                  | `Unadjusted FP × VAF`                   | `Sum of all function points` |
+| Example Calculation      | `500 × 1.2 = 600 FP`                     | `10 + 15 + 5 + 20 + 10 = 60 FP` |
 | Best for Simple Projects?| No                                       | Yes                      |
 | Best for Complex Projects?| Yes                                     | No                       |
+
 
 ## Conclusion
 
