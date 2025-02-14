@@ -737,3 +737,29 @@ Where **E_i** is the effort required for each phase (**Design, Coding, Testing, 
 - `E = 5.2 +0.73X(KLOC)1.16` - Bailey-Basili Model
 - `E = 3.2 X (KLOC)1.05` - Simple Bohem Model
 - `E = 5.288 X (KLOC) 1.047` - Doty Model
+
+## Cyclomatic Complexity
+Cyclomatic complexity is a software metric that measures the complexity of a program's control flow by counting the number of linearly independent paths through the source code. 
+**Need:**
+- Assess code maintainability and readability
+- Identify potential errors and areas of high risk
+- Determine testing effort required
+- Aid in refactoring efforts to simplify code
+**Objective:**
+- Quantify the complexity of a program or function
+- Facilitate better decision-making in software development
+- Improve overall code quality and understandability
+**Process:**
+- Identify the program's decision points (such as if, while, and for statements)
+- Calculate the number of linearly independent paths by counting the decision points and adding one
+- Interpret the resulting value:
+  - Low value: lower complexity, easier to maintain and test
+  - High value: higher complexity, harder to maintain and test, may require refactoring
+![Daigram 10](10.png)
+
+- **Given a control flow graph G of a program, the cyclomatic complexity V(G) can be computed as:**
+  - V(G) = E − N + 2, where E is the number of edges and N is the total number of nodes
+  - V(G)=V(G) = Total number of bounded areas + 1
+  - Any region enclosed by nodes and edges can be called as a bounded area.
+  - The cyclomatic complexity of a program can also be easily computed by computing the number of decision statements of the program.
+
