@@ -228,3 +228,120 @@ The **Bottom-Up Approach** starts with designing and implementing **small, reusa
 
 - The **Top-Down Approach** is best for **structured, large-scale projects** where high-level planning is crucial.
 - The **Bottom-Up Approach** is ideal for **modular and flexible designs**, especially in **object-oriented programming (OOP)**.
+
+## Estimation Model
+Here we try to estimate about two things time and cost of development
+- Majorly estimation can be divided into four types:
+  - Post estimation
+  - Base estimation
+  - Decomposition
+  - Empirical model
+
+- `Post/Delayed estimation:` In case of a friendly partly and known technology, we do not estimate either the time or the cost, because we know that cost will support as in every situation.
+- `Base estimation:` In base estimation we predict the cost and time of the entire project based on the experience which we have gained from the previous projects.
+- `Decomposition based estimation:` It is used for large projects where decomposition of the problem into smaller problems is done, usually it is done on two bases.
+  - `Direct Estimation (White Box):` Size oriented metrices (KLOC).
+  - `Indirect Estimation(Black Box):` Function oriented metrices (FP).
+
+### - ``Effort = Size / Productivity`
+### - `Productivity = Size / Effort`
+### - `Size = Effort X Productivity`
+### - `Cost Effort X Pay`
+### - `Duration = Effort / Team Size`
+### - `Team Size = Effort / Duration`
+### - `Effort = Duration X Team Size`
+
+
+### **Problem 1: Estimating Effort, Cost, and Duration for a Full-Stack Application**
+A company is developing a full-stack web application with an estimated **size of 100 KLOC (Kilo Lines of Code)**. Based on previous projects, their **productivity is 2 KLOC per person-month**. The average **developer salary is $5000 per month**. The **team size** is **5 developers**.
+
+#### **Find:**
+1. **Effort** required
+2. **Cost of development**
+3. **Duration of the project**
+
+#### **Solution:**
+Using the formulas:
+
+1. **Effort Calculation:**  
+   \[
+   \text{Effort} = \frac{\text{Size}}{\text{Productivity}}
+   \]
+   \[
+   = \frac{100}{2} = 50 \text{ person-months}
+   \]
+
+2. **Cost Calculation:**  
+   \[
+   \text{Cost} = \text{Effort} \times \text{Pay per person-month}
+   \]
+   \[
+   = 50 \times 5000 = 250,000 \text{ USD}
+   \]
+
+3. **Duration Calculation:**  
+   \[
+   \text{Duration} = \frac{\text{Effort}}{\text{Team Size}}
+   \]
+   \[
+   = \frac{50}{5} = 10 \text{ months}
+   \]
+
+---
+
+### **Problem 2: Estimating Team Size for a New Project**
+A startup wants to develop a new full-stack SaaS platform with an estimated size of **200 KLOC**. The **project deadline is 12 months**. The **team's productivity is 4 KLOC per person-month**.
+
+#### **Find:**
+1. **Effort required**
+2. **Minimum team size needed**
+
+#### **Solution:**
+1. **Effort Calculation:**  
+   \[
+   \text{Effort} = \frac{\text{Size}}{\text{Productivity}}
+   \]
+   \[
+   = \frac{200}{4} = 50 \text{ person-months}
+   \]
+
+2. **Team Size Calculation:**  
+   \[
+   \text{Team Size} = \frac{\text{Effort}}{\text{Duration}}
+   \]
+   \[
+   = \frac{50}{12} \approx 4.17
+   \]
+
+Since team size must be a whole number, they need at least **5 developers**.
+
+---
+
+### **Problem 3: Productivity Calculation for an Ongoing Project**
+A company is working on a complex enterprise web application. They have already spent **60 person-months** with a **team of 6 developers** over **10 months**. The estimated **code size is 150 KLOC**.
+
+#### **Find:**
+1. **Current productivity**
+2. **Expected total effort at this rate**
+
+#### **Solution:**
+1. **Productivity Calculation:**  
+   \[
+   \text{Productivity} = \frac{\text{Size}}{\text{Effort}}
+   \]
+   \[
+   = \frac{150}{60} = 2.5 \text{ KLOC per person-month}
+   \]
+
+2. **Expected Total Effort:**  
+   If they continue at **2.5 KLOC per person-month**, the total effort required will be:
+   \[
+   \text{Effort} = \frac{\text{Size}}{\text{Productivity}}
+   \]
+   \[
+   = \frac{150}{2.5} = 60 \text{ person-months}
+   \]
+
+Since they have already completed **60 person-months**, they are right on track to complete the project at the expected effort.
+
+---
