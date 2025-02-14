@@ -647,3 +647,93 @@ Total **Unadjusted FP** = **10 + 15 + 5 + 20 + 10 = 60 FP**
 
 ## Conclusion  
 3D Function Points enhance software estimation by considering multiple dimensions, making them more effective for complex and large-scale projects.  
+
+## Empirical models
+- Empirical models are estimation models which uses empirically derived formulas for predicting based on LOC or FP.
+- Different authors provides different mathematically derived formula based on either LOC or FP.
+- Out of all COCOMO models in most versatile and universally accepted.
+
+### `COCOMO(1981)`
+- COCOMO model (construction cost model) is the most widely used estimating technique. It is a regression-based model developed by barry boehm, he postulated that there are essentially three important classes of the software.
+  - Organic(application)
+  - Semidetached(utility)
+  - Embedded(system)
+
+- In order to classify a product into any of the three proposed classes, we take into consideration the characteristics of the product as well as those of the development team.
+- Data processing and scientific program are considered to be application programs. Complier, linkers etc are utility programs. Operating system and real time system programs are system programs.
+- According to the brooks the relative level of the product complexity for the three categories of product are in the ratio 1:3:9 for application, utility and system programs relatively.
+
+- `Organic:` Relatively small group work in a familiar environment to develop well understood application program, here little innovation is required, constraints and deadlines are few and the development environment is stable.
+- `Semidetached:` Project teams consist of a mixture of experienced and inexperienced staff. It is of medium size, some innovation is required, constraints and deadlines are moderate and the development environment is somewhat fluid.
+- `Embedded:` the s/w is strongly coupled to complex h/w, such as air traffic control, ATM's or weapon systems. The project team is large, a great deal of innovation is required, constraints and deadlines are tight and the development environment consist of many complex interfaces, including those with h/w and with customer.
+
+
+**Basic COCOMO**
+- A simple and static cost estimation model that calculates project effort and duration based on the size of the software, measured in thousands of lines of code (KLOC)
+- Provides a rough order-of-magnitude estimate of project effort and duration
+- Uses three modes: Organic, Semi-Detached, and Embedded
+**Intermediate COCOMO**
+- Definition: An extension of the Basic COCOMO model that refines effort and duration estimates by considering additional project factors, such as product attributes, hardware constraints, and personnel/team attributes.
+- Introduces 15 cost drivers to adjust the estimation, these drivers plays a major role in computation of effort estimation.
+- Effort Adjustment Factor (EAF) accounts for the influence of cost drivers.
+**Advanced COCOMO**
+Definition: The most comprehensive and accurate COCOMO model that divides a software project into multiple components or modules, and accounts for interactions between cost drivers and project phases.
+Estimates effort and duration for each component using the Intermediate COCOMO model, then sums them up.
+Considers software reuse, hardware constraints, and personnel/team attributes in estimation.
+
+# COCOMO Model Formulas
+
+## 1. Basic COCOMO  
+The **Basic COCOMO** model estimates effort and development time based on the size of the software in **Kilo Source Lines of Code (KLOC)**.
+
+| Metric     | Formula                                   |
+|------------|-------------------------------------------|
+| **Effort (E)**  | `E = a * (KLOC)^b`                 |
+| **Time (T)**    | `T = c * (E)^d`                     |
+| **People (P)**  | `P = E / T`                         |
+
+**Values of a, b, c, and d for Different Software Types:**  
+
+| Software Type  | a  | b    | c  | d    |
+|---------------|----|------|----|------|
+| Organic       | 2.4 | 1.05 | 2.5 | 0.38 |
+| Semi-Detached | 3.0 | 1.12 | 2.5 | 0.35 |
+| Embedded      | 3.6 | 1.20 | 2.5 | 0.32 |
+
+---
+
+## 2. Intermediate COCOMO  
+The **Intermediate COCOMO** model refines the Basic model by incorporating **Cost Drivers (EAF - Effort Adjustment Factor)**.
+
+| Metric     | Formula                                       |
+|------------|-----------------------------------------------|
+| **Effort (E)**  | `E = a * (KLOC)^b * EAF`               |
+| **Time (T)**    | `T = c * (E)^d`                         |
+| **People (P)**  | `P = E / T`                             |
+
+Where **EAF** is the product of 15 cost driver multipliers, such as **Required Reliability, Database Size, Complexity, etc.**
+
+---
+
+## 3. Advanced COCOMO  
+The **Advanced COCOMO** model extends the Intermediate model by considering the **phases of software development**.
+
+| Metric     | Formula                                      |
+|------------|----------------------------------------------|
+| **Effort (E)**  | `E = ∑ (E_i)`, where `E_i = a_i * (KLOC)^b_i * EAF_i` |
+| **Time (T)**    | `T = c * (E)^d`                        |
+| **People (P)**  | `P = E / T`                            |
+
+Where **E_i** is the effort required for each phase (**Design, Coding, Testing, etc.**), and different values of `a_i` and `b_i` are used for each phase.
+
+---
+  
+- **Basic COCOMO** is useful for quick estimations.  
+- **Intermediate COCOMO** provides better accuracy by considering cost drivers.  
+- **Advanced COCOMO** further refines effort calculation by breaking down phases.
+
+### Other Empirical models
+- `E = 5.2 X (KLOC)0.91` - Waltson & Felix Model
+- `E = 5.2 +0.73X(KLOC)1.16` - Bailey-Basili Model
+- `E = 3.2 X (KLOC)1.05` - Simple Bohem Model
+- `E = 5.288 X (KLOC) 1.047` - Doty Model
