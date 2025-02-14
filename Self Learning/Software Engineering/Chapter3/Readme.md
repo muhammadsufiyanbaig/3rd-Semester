@@ -535,10 +535,9 @@ $$
 
 | Metric           | Formula                                                                 | Value              |
 |-----------------|------------------------------------------------------------------------|--------------------|
-| **Effort**       | $$ \frac{\text{Size (FP)}}{\text{Productivity}} = \frac{500}{10} $$   | 50 person-months   |
-| **Duration**     | $$ \frac{\text{Effort}}{\text{Team Size}} = \frac{50}{3} $$           | ~16.67 months      |
-| **Productivity** | $$ \frac{\text{Size (FP)}}{\text{Effort}} = \frac{500}{50} $$         | 10 FP/person-month |
-
+| **Effort**       | <br> $$ \frac{\text{Size (FP)}}{\text{Productivity}} = \frac{500}{10} $$   | 50 person-months   |
+| **Duration**     | <br> $$ \frac{\text{Effort}}{\text{Team Size}} = \frac{50}{3} $$           | ~16.67 months      |
+| **Productivity** | <br> $$ \frac{\text{Size (FP)}}{\text{Effort}} = \frac{500}{50} $$         | 10 FP/person-month |
 
 ---
 
