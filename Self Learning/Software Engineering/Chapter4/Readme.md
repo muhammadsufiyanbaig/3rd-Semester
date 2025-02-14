@@ -338,3 +338,167 @@ Sandwich or hybrid integration testing is a combination of top-down and bottom-u
 - System testing is performed in an environment that closely resembles the real-world or production environment.
 - Generally, it is performed by independent testers who haven't been involved in the development phase to ensure unbiased testing.
 - It may include functional testing, usability testing, performance testing, security testing, and compatibility testing.
+
+## User Acceptance Testing
+- `Definition and Purpose:` User Acceptance Testing (UAT) is the final testing phase before software deployment, aiming to validate if the system meets the business requirements and is fit for use.
+- `Participants:` Usually performed by clients or end-users, UAT evaluates the software's functionality in a real-world scenario.
+- `Focus:` Emphasizing the software's user-friendliness, efficiency, and effectiveness, UAT goes beyond purely technical aspects to assess overall user experience.
+- `Documentation:` During UAT, all scenarios, outcomes, and user feedback are recorded to inform potential changes and improvements.
+- `Outcome:` Successful UAT culminates in user sign-off, signifying the system meets the set acceptance criteria and is ready for release.
+
+## Regression Testing
+- `Definition:` Regression testing is a type of software testing carried out to ensure that previously developed and tested software still functions as expected after making changes, such as updates or bug fixes.
+- `Purpose:` The main goal is to identify any issues or defects introduced by changes in the software, and to ensure that the changes have not disrupted any existing functionality.
+- `Types:` Types of regression testing include unit regression, partial regression, and complete regression testing.
+- `Test Cases:` Regression testing generally involves re-running previously completed tests and verifying that program behavior has not changed as a result of the newly introduced changes.
+- `Automation:` Due to the repetitive nature of these tests, regression testing is often automated to improve efficiency and accuracy.
+
+## Black box Testing/ White box Testing
+- `Black Box Testing(Validation)` – Where we treat system as a whole, and check system according to user requirement `(are we making the right product)`, i.e. we check o/p for every i/p.
+- `White Box Testing(Verification)` - Here we go inside a system and check how actual functionality is performed `(are we making the product right)`.
+
+## Alpha Testing/ Beta Testing
+- Any type of testing which is done on developer side is called alpha testing, usually performed with artificial test cases.
+- Any type of testing which is done at customer side is called beta testing, usually performed with real time data.
+
+## Stress Testing
+- Stress testing is also known as endurance testing.
+- Stress testing evaluates system performance when it is stressed for short periods of time.
+- Stress tests are black box tests which are designed to impose a range of abnormal and even illegal input conditions so as to stress the capabilities of the software.
+
+## Boundary value analysis
+- Boundary Value Analysis is a software testing technique that focuses on the values at the boundaries of the input domain.
+- The theory behind BVA is that errors are more likely to occur at the extremes of an input domain rather than in the center. Hence, it's generally more useful to focus on testing the boundary values.
+- BVA is used for testing ranges and data array elements in a software application.
+- In practice, BVA can be applied by identifying all the boundaries and then creating test cases for the boundary values and just above and below the boundary values.
+- `Example:` Let's consider a simple application that accepts an integer input from 1 to 100.
+- The boundary values here would be 0 (just below the valid range), 1 (lower limit), 100 (upper limit), and 101 (just above the valid range).
+- You would then create test cases to input these values and verify the system's behavior.
+
+## Equivalence partitioning
+- Equivalence Partitioning is a black box testing technique that divides the input data of a software unit into partitions of equivalent data.
+- The logic behind EP is that the system should handle all the equivalent data in the same way, thus you can save testing effort by testing only one value from each partition.
+- It helps to reduce the total number of test cases from an infinite pool to a more manageable number.
+- `Example:` Let's consider the same application that accepts an integer input from 1 to 100.
+- The equivalence classes here would be: less than 1 (invalid), between 1 and 100 (valid), and greater than 100 (invalid).
+- You would then create test cases to input a value from each of these classes (for example, 0, 50, and 101) and verify the system's behavior.
+
+## Graph-Based Testing Methods
+- Uses graphical representation for software testing.
+- Nodes represent states; edges represent transitions.
+- `Example:` For a web app with Login, Dashboard, and Logout screens, draw nodes for each and edges for transitions. Test paths like Login -> Dashboard -> Logout.
+
+## Formal Technical Review (Peer Reviews)
+- A Formal Technical Review (FTR) is a structured, systematic, and disciplined approach to examining and evaluating software artifacts, such as code, design documents, or requirements specifications, with the primary goal of identifying and addressing defects, inconsistencies, or areas for improvement.
+- FTRs are conducted by a team of peers, consisting of the artifact's author and other software professionals, who analyze the work product and provide constructive feedback to ensure high-quality software development.
+- Formal Technical Reviews play a crucial role in improving software quality, detecting issues early in the development lifecycle, promoting knowledge sharing, and fostering collaboration within software engineering teams.
+**Type Peer Reviews:**
+- Code Review
+- Walkthroughs
+- Inspections
+- Pair Programming
+
+**Formal Technical Review Process**
+The Formal Technical Review Process
+- **A. Planning**
+  1. Establish objectives
+  2. Select participants
+  3. Set schedule
+- **B. Preparation**
+  1. Distribute materials
+  2. Review guidelines
+  3. Allocate time for individual review
+**C. Conducting the review**
+- 1. Discuss objectives
+- 2. Review findings
+- 3. Make decisions on action items
+**D. Post-review activities**
+- 1. Document review results 
+- 2. Implement action items
+- 3. Mointor follow-up actions
+
+
+- **Roles in Formal Technical Reviews**
+  - A. Review leader
+  - B. Author
+  - C. Reviewers
+  - D. Recorder
+- **Benefits of Formal Technical Reviews**
+  - A. Improved code quality
+  - B. Early defect detection
+  - C. Knowledge sharing
+  - D. Increased team collaboration
+- **Challenges and Best Practices in Formal Technical Reviews**
+  - A. Time management
+  - B. Maintaining a constructive environment
+  - C. Addressing bias
+  - D. Ensuring consistency in review standards
+
+
+##  Walk Through
+- In software engineering, a walkthrough is a type of informal review process in which the author of a software artifact, such as code, design documents, or requirements specifications, presents their work to a group of peers.
+- The main purpose of a walkthrough is to identify defects, inconsistencies, or areas for improvement through a collaborative discussion.
+- Walkthroughs are typically less formal than other review methods, such as inspections, and focus on knowledge sharing, collaboration, and training among team members.
+
+**Walk Through Process**
+- **A. Planning**
+  - 1. Define objectives
+  - 2. Select participants
+  - 3. Schedule the walkthrough
+- **B. Preparation**
+  - 1. Distribute materials
+  - 2. Review guidelines
+  - 3. Allocate time for individual review
+- **C. Conducting the walkthrough**
+  - 1. Present the work product
+  - 2. Discuss findings
+  - 3. Record issues and suggestions
+- **D. Post-walkthrough activities**
+  - 1. Summarize findings
+  - 2. Assign action items
+  - 3. Mointor follow-up actions
+
+
+- **Roles in Walkthroughs** 
+  - A. Presenter
+  - B. Reviewers
+  - C. Recorder
+- **Benefits of Walkthroughs** 
+  - A. Early defect detection 
+  - B. Knowledge sharing 
+  - C. Team collaboration 
+  - D. Training and mentoring
+
+
+## Code Inspection
+- `Definition:` Code inspection is a systematic review process in which a team of developers evaluates a software product's source code for potential issues, such as errors, vulnerabilities, and deviations from coding standards.
+- **Objectives:**
+  - Improve code quality
+  - Detect and fix defects early in the development cycle.
+  - Share knowledge and best practices among team members.
+  - Enforce coding standards and guidelines.
+
+- **Process:**
+  - `Planning:` Select the code to be inspected, define goals, and assemble the inspection team.
+  - `Preparation:` Team members review the code individually to identify potential issues Inspection.
+  - `Meeting:` The team discusses the identified issues, and the moderator notes down agreed-upon action items.
+  - `Rework:` The original developer addresses the identified issues and submits the revised code.
+  - `Follow-up:` The moderator verifies that all action items have been addressed and closes the inspection.
+
+- **Inspection Team Roles:**
+  - `Author:` The developer who wrote the code being inspected.
+  - `Moderator:` The person who leads the inspection process and ensures it runs smoothly.
+  - `Reviewers:` Other developers who provide insights and suggestions for improvements.
+  - `Recorder:` The person responsible for documenting the issues found and decisions made during the inspection.
+
+- **Benefits:**
+  - Enhanced code quality and maintainability.
+  - Reduced development costs and project risks.
+  - Faster time-to-market due to early detection of defects Improved team collaboration and learning.
+- **Limitations:**
+  - Time-consuming process.
+  - Possibility of human errors or oversights.
+  - Potential for conflict among team members.
+  - May not catch all types of defects, such as performance or concurrency issues.
+
+  
