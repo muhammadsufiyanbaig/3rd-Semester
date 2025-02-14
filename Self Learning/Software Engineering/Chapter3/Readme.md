@@ -569,9 +569,11 @@ where **VAF** is calculated based on 14 general system characteristics (GSCs) su
 ### Example
 If a project has **500 unadjusted function points** and a **VAF of 1.2**, then:
 
+$$
 \[
 \text{Adjusted FP} = 500 \times 1.2 = 600
 \]
+$$
 
 ## 2. Unadjustable Estimation
 
@@ -585,9 +587,11 @@ If a project has **500 unadjusted function points** and a **VAF of 1.2**, then:
 
 ### Formula
 
+$$
 \[
 \text{Unadjusted Function Points} = \text{Sum of all function points}
 \]
+$$
 
 ### Example
 If a project has the following components:
