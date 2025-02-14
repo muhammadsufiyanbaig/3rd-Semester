@@ -504,9 +504,9 @@ $$
 ### **Final Results:**  
 | Metric         | Formula                          | Value |
 |---------------|----------------------------------|-------|
-| **Effort**    | $$ \frac{500}{10} $$            | 50 person-months |
-| **Duration**  | $$ \frac{50}{3} $$              | ~16.67 months |
-| **Productivity** | $$ \frac{500}{50} $$         | 10 FP/person-month |
+| **Effort**    | \( \frac{500}{10} \)            | 50 person-months |
+| **Duration**  | \( \frac{50}{3} \)              | ~16.67 months |
+| **Productivity** | \( \frac{500}{50} \)         | 10 FP/person-month |
 
 
 ---
