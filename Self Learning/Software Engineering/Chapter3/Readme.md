@@ -533,14 +533,88 @@ $$
 
 ### **Final Results:**
 
-| Metric           | Formula                                                             | Value              |
-| ---------------- | ------------------------------------------------------------------- | ------------------ |
-| **Effort**       | $$ \[\frac{\text{Size (FP)}}{\text{Productivity}} = \frac{500}{10}\] $$ | 50 person-months   |
-| **Duration**     | $$ \[ \frac{\text{Effort}}{\text{Team Size}} = \frac{50}{3} \] $$         | ~16.67 months      |
-| **Productivity** | $$ \[ \frac{\text{Size (FP)}}{\text{Effort}} = \frac{500}{50} \] $$      | 10 FP/person-month |
+| Metric           | Formula                                                                 | Value              |
+|-----------------|------------------------------------------------------------------------|--------------------|
+| **Effort**       | $$ \frac{\text{Size (FP)}}{\text{Productivity}} = \frac{500}{10} $$   | 50 person-months   |
+| **Duration**     | $$ \frac{\text{Effort}}{\text{Team Size}} = \frac{50}{3} $$           | ~16.67 months      |
+| **Productivity** | $$ \frac{\text{Size (FP)}}{\text{Effort}} = \frac{500}{50} $$         | 10 FP/person-month |
+
 
 ---
 
 - The project **requires 50 person-months of effort**.
 - With a **team of 3 developers**, the **expected duration is ~16.67 months**.
 - The team maintains a **productivity rate of 10 FP/person-month**.
+# Adjustable vs. Unadjustable in Indirect Estimation (Function Point Method)
+
+In **Indirect Estimation (Function Point Method)**, software size is estimated based on function points (FP) rather than direct lines of code (LOC). The estimation can be categorized as **Adjustable** and **Unadjustable** based on whether external factors influence the calculation.
+
+## 1. Adjustable Estimation
+
+### Definition
+An **adjustable estimation** allows modification of effort, duration, or cost based on external complexity factors, such as team experience, project complexity, or technology used.
+
+### Key Features
+- Uses **complexity adjustment factors (CAF)** or **value adjustment factors (VAF)**.
+- The final function point is **adjusted** based on environmental and technical factors.
+- Provides a **more realistic** estimation for software development.
+
+### Formula
+
+\[
+\text{Adjusted Function Points} = \text{Unadjusted Function Points} \times \text{Value Adjustment Factor (VAF)}
+\]
+
+where **VAF** is calculated based on 14 general system characteristics (GSCs) such as reliability, performance, and reusability.
+
+### Example
+If a project has **500 unadjusted function points** and a **VAF of 1.2**, then:
+
+\[
+\text{Adjusted FP} = 500 \times 1.2 = 600
+\]
+
+## 2. Unadjustable Estimation
+
+### Definition
+**Unadjustable estimation** considers only the **raw function points** without any modifications for complexity or external factors.
+
+### Key Features
+- Uses **only function points without adjustments**.
+- Does not consider external influences like **team skills or technical challenges**.
+- Works well for **basic estimations** but may not be **accurate for complex projects**.
+
+### Formula
+
+\[
+\text{Unadjusted Function Points} = \text{Sum of all function points}
+\]
+
+### Example
+If a project has the following components:
+
+- **Inputs:** 10 FP
+- **Outputs:** 15 FP
+- **User Queries:** 5 FP
+- **Files:** 20 FP
+- **Interfaces:** 10 FP
+
+Total **Unadjusted FP** = **10 + 15 + 5 + 20 + 10 = 60 FP**
+
+## Comparison Table
+
+| Feature                  | Adjustable Estimation                    | Unadjustable Estimation  |
+|--------------------------|------------------------------------------|--------------------------|
+| Uses Complexity Factors? | Yes                                      | No                       |
+| More Realistic?          | Yes                                      | No                       |
+| Formula                  | \( \text{Unadjusted FP} \times \text{VAF} \) | \( \text{Sum of all function points} \) |
+| Example Calculation      | \( 500 \times 1.2 = 600 \) FP            | \( 10 + 15 + 5 + 20 + 10 = 60 \) FP |
+| Best for Simple Projects?| No                                       | Yes                      |
+| Best for Complex Projects?| Yes                                     | No                       |
+
+## Conclusion
+
+- **Use Adjustable Estimation** when a **realistic** prediction considering external complexities is required.
+- **Use Unadjustable Estimation** for **quick and simple calculations** without external influences.
+
+
