@@ -461,7 +461,7 @@ Thus, the expected project duration is **6.33 months (~6 months and 10 days).**
 ![Daigram 9](9.png)
 
 ## Indirect Estimation (Black Box)
-
+# 2D Function Points
 ### **Indirect Estimation Using Function Point (FP) Approach**
 
 **Scenario:**  
@@ -622,3 +622,28 @@ Total **Unadjusted FP** = **10 + 15 + 5 + 20 + 10 = 60 FP**
 - **Use Unadjustable Estimation** for **quick and simple calculations** without external influences.
 
 
+# 3D Function Points
+
+## Introduction  
+**3D Function Points** extend traditional function point analysis by incorporating three key dimensions:  
+1. **Functional Size** – Measures the amount of functionality delivered to the user.  
+2. **Technical Complexity** – Evaluates the technical effort required for implementation.  
+3. **Quality Requirements** – Assesses the non-functional aspects, such as performance and security.  
+
+## Key Concepts  
+- Unlike traditional function points, which focus only on functional size, 3D Function Points provide a more **holistic estimation**.  
+- It helps in better project **costing, planning, and risk assessment**.  
+- It aligns closely with **Agile and modern software development methodologies**.  
+
+## Calculation Approach  
+1. **Determine the functional size** using function point counting rules.  
+2. **Assess technical complexity** based on factors such as integration, security, and platform dependencies.  
+3. **Evaluate quality requirements** including maintainability, scalability, and reliability.  
+
+## Benefits  
+- More **accurate** estimation compared to traditional function points.  
+- **Better risk management** by considering technical and quality aspects.  
+- Improved **alignment with real-world software development challenges**.  
+
+## Conclusion  
+3D Function Points enhance software estimation by considering multiple dimensions, making them more effective for complex and large-scale projects.  
