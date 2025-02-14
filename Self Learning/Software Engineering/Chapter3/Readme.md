@@ -230,8 +230,11 @@ The **Bottom-Up Approach** starts with designing and implementing **small, reusa
 - The **Bottom-Up Approach** is ideal for **modular and flexible designs**, especially in **object-oriented programming (OOP)**.
 
 ## Estimation Model
+
 Here we try to estimate about two things time and cost of development
+
 - Majorly estimation can be divided into four types:
+
   - Post estimation
   - Base estimation
   - Decomposition
@@ -244,15 +247,21 @@ Here we try to estimate about two things time and cost of development
   - `Indirect Estimation(Black Box):` Function oriented metrices (FP).
 
 ### - ``Effort = Size / Productivity`
+
 ### - `Productivity = Size / Effort`
+
 ### - `Size = Effort X Productivity`
+
 ### - `Cost Effort X Pay`
+
 ### - `Duration = Effort / Team Size`
+
 ### - `Team Size = Effort / Duration`
+
 ### - `Effort = Duration X Team Size`
 
-
 ## Direct Estimation (White Box)
+
 ## Problem 1: Estimating Effort, Cost, and Duration for a Full-Stack Application
 
 A company is developing a full-stack web application with an estimated **size of 100 KLOC (Kilo Lines of Code)**.  
@@ -261,12 +270,15 @@ The average **developer salary is $5000 per month**.
 The **team size** is **5 developers**.
 
 ### **Find:**
+
 1. **Effort required**
 2. **Cost of development**
 3. **Duration of the project**
 
 ### **Solution:**
+
 #### **1. Effort Calculation**
+
 $$
 \[
 \text{Effort} = \frac{\text{Size}}{\text{Productivity}}
@@ -277,6 +289,7 @@ $$
 $$
 
 #### **2. Cost Calculation**
+
 $$
 \[
 \text{Cost} = \text{Effort} \times \text{Pay per person-month}
@@ -287,6 +300,7 @@ $$
 $$
 
 #### **3. Duration Calculation**
+
 $$
 \[
 \text{Duration} = \frac{\text{Effort}}{\text{Team Size}}
@@ -305,11 +319,14 @@ The **project deadline is 12 months**.
 The **team's productivity is 4 KLOC per person-month**.
 
 ### **Find:**
+
 1. **Effort required**
 2. **Minimum team size needed**
 
 ### **Solution:**
+
 #### **1. Effort Calculation**
+
 $$
 \[
 \text{Effort} = \frac{\text{Size}}{\text{Productivity}}
@@ -320,6 +337,7 @@ $$
 $$
 
 #### **2. Team Size Calculation**
+
 $$
 \[
 \text{Team Size} = \frac{\text{Effort}}{\text{Duration}}
@@ -340,11 +358,14 @@ They have already spent **60 person-months** with a **team of 6 developers** ove
 The estimated **code size is 150 KLOC**.
 
 ### **Find:**
+
 1. **Current productivity**
 2. **Expected total effort at this rate**
 
 ### **Solution:**
+
 #### **1. Productivity Calculation**
+
 $$
 \[
 \text{Productivity} = \frac{\text{Size}}{\text{Effort}}
@@ -355,6 +376,7 @@ $$
 $$
 
 #### **2. Expected Total Effort**
+
 If they continue at **2.5 KLOC per person-month**, the total effort required will be:
 
 $$
@@ -370,14 +392,15 @@ Since they have already completed **60 person-months**, they are right on track 
 
 ---
 
-A company is developing a new **E-commerce platform**. Based on past projects, they estimate:  
+A company is developing a new **E-commerce platform**. Based on past projects, they estimate:
 
 - **Optimistic Estimate (O):** The project could be completed in **4 months** if everything goes smoothly.
 - **Most Likely Estimate (M):** The project will likely take **6 months** based on realistic conditions.
 - **Pessimistic Estimate (P):** If delays occur, the project may take up to **10 months**.
 
-### **Find:**  
-Estimate the expected project duration using the **PERT formula**:  
+### **Find:**
+
+Estimate the expected project duration using the **PERT formula**:
 
 $$
 \[
@@ -388,6 +411,7 @@ $$
 ---
 
 ### **Solution:**
+
 Substituting values:
 
 $$
@@ -408,14 +432,15 @@ $$
 \]
 $$
 
-Thus, the expected project duration is **6.33 months (~6 months and 10 days).**  
+Thus, the expected project duration is **6.33 months (~6 months and 10 days).**
 
 ---
 
-### **Conclusion:**  
-- **Optimistic (O)**: 4 months → Best case (everything goes perfectly).  
-- **Most Likely (M)**: 6 months → Normal expected timeline.  
-- **Pessimistic (P)**: 10 months → Worst case (delays, issues).  
+### **Conclusion:**
+
+- **Optimistic (O)**: 4 months → Best case (everything goes perfectly).
+- **Most Likely (M)**: 6 months → Normal expected timeline.
+- **Pessimistic (P)**: 10 months → Worst case (delays, issues).
 - **Estimated Duration (E)**: ~6.33 months based on PERT.
 
 ---
@@ -436,46 +461,51 @@ Thus, the expected project duration is **6.33 months (~6 months and 10 days).**
 ![Daigram 9](9.png)
 
 ## Indirect Estimation (Black Box)
-### **Indirect Estimation Using Function Point (FP) Approach**  
-**Scenario:**  
-A **Full-Stack Web Application** is being developed. We estimate the **Function Points (FP)** based on project complexity.  
 
-#### **Given Data:**  
+### **Indirect Estimation Using Function Point (FP) Approach**
+
+**Scenario:**  
+A **Full-Stack Web Application** is being developed. We estimate the **Function Points (FP)** based on project complexity.
+
+#### **Given Data:**
+
 - **Function Points (FP) = 500**
 - **Productivity = 10 FP/person-month** (based on past experience)
-- **Team Size = 3 developers**  
+- **Team Size = 3 developers**
   - 1 **Most Likely (M)**
-  - 2 **Pessimistic (P)**  
+  - 2 **Pessimistic (P)**
 
 ---
 
-### **Step 1: Calculate Effort**  
+### **Step 1: Calculate Effort**
+
 Using the formula:
 
-$$ 
+$$
 \[
 \text{Effort} = \frac{\text{Size (FP)}}{\text{Productivity}}
 \]
-$$ 
+$$
 
-$$ 
+$$
 \[
 \text{Effort} = \frac{500}{10} = 50 \text{ person-months}
 \]
-$$ 
+$$
 
 ---
 
-### **Step 2: Calculate Duration**  
+### **Step 2: Calculate Duration**
+
 Using the formula:
 
-$$ 
+$$
 \[
 \text{Duration} = \frac{\text{Effort}}{\text{Team Size}}
 \]
-$$ 
+$$
 
-$$ 
+$$
 \[
 \text{Duration} = \frac{50}{3} \approx 16.67 \text{ months}
 \]
@@ -485,35 +515,32 @@ So, the project will take **~16.67 months (~1 year and 4.5 months).**
 
 ---
 
-### **Step 3: Calculate Productivity** 
+### **Step 3: Calculate Productivity**
 
-$$ 
+$$
 \[
 \text{Productivity} = \frac{\text{Size}}{\text{Effort}}
 \]
-$$ 
+$$
 
-$$ 
+$$
 \[
 \text{Productivity} = \frac{500}{50} = 10 \text{ FP/person-month}
 \]
-$$ 
+$$
 
 ---
 
-### **Final Results:**  
+### **Final Results:**
 
-| Metric         | Formula                          | Value             |
-|----------------|----------------------------------|-------------------|
-| **Effort**     | \( \frac{\text{Size (FP)}}{\text{Productivity}} = \frac{500}{10} \) | 50 person-months  |
-| **Duration**   | \( \frac{\text{Effort}}{\text{Team Size}} = \frac{50}{3} \)         | ~16.67 months     |
-| **Productivity** | \( \frac{\text{Size (FP)}}{\text{Effort}} = \frac{500}{50} \)     | 10 FP/person-month |
-
-
-
+| Metric           | Formula                                                             | Value              |
+| ---------------- | ------------------------------------------------------------------- | ------------------ |
+| **Effort**       | $$ \[\frac{\text{Size (FP)}}{\text{Productivity}} = \frac{500}{10}\] $$ | 50 person-months   |
+| **Duration**     | $$ \[ \frac{\text{Effort}}{\text{Team Size}} = \frac{50}{3} \] $$         | ~16.67 months      |
+| **Productivity** | $$ \[ \frac{\text{Size (FP)}}{\text{Effort}} = \frac{500}{50} \] $$      | 10 FP/person-month |
 
 ---
-  
-- The project **requires 50 person-months of effort**.  
-- With a **team of 3 developers**, the **expected duration is ~16.67 months**.  
-- The team maintains a **productivity rate of 10 FP/person-month**.  
+
+- The project **requires 50 person-months of effort**.
+- With a **team of 3 developers**, the **expected duration is ~16.67 months**.
+- The team maintains a **productivity rate of 10 FP/person-month**.
