@@ -369,3 +369,48 @@ $$
 Since they have already completed **60 person-months**, they are right on track to complete the project at the expected effort.
 
 ---
+
+A company is developing a new **E-commerce platform**. Based on past projects, they estimate:  
+
+- **Optimistic Estimate (O):** The project could be completed in **4 months** if everything goes smoothly.
+- **Most Likely Estimate (M):** The project will likely take **6 months** based on realistic conditions.
+- **Pessimistic Estimate (P):** If delays occur, the project may take up to **10 months**.
+
+### **Find:**  
+Estimate the expected project duration using the **PERT formula**:  
+
+$$
+\[
+E = \frac{O + 4M + P}{6}
+\]
+$$
+---
+
+### **Solution:**
+Substituting values:
+
+$$
+\[
+E = \frac{4 + 4(6) + 10}{6}
+\]
+
+\[
+= \frac{4 + 24 + 10}{6}
+\]
+
+\[
+= \frac{38}{6} \approx 6.33 \text{ months}
+\]
+$$
+
+Thus, the expected project duration is **6.33 months (~6 months and 10 days).**  
+
+---
+
+### **Conclusion:**  
+- **Optimistic (O)**: 4 months → Best case (everything goes perfectly).  
+- **Most Likely (M)**: 6 months → Normal expected timeline.  
+- **Pessimistic (P)**: 10 months → Worst case (delays, issues).  
+- **Estimated Duration (E)**: ~6.33 months based on PERT.
+
+---
