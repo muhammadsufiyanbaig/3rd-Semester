@@ -332,5 +332,9 @@ Sandwich or hybrid integration testing is a combination of top-down and bottom-u
 - Middle-level modules may require additional effort for integration.
 - Debugging can be challenging due to concurrent testing of different layers.
 
-
-
+## System Testing
+- System testing is a level of software testing where the complete and integrated software system as a whole is tested to evaluate its compliance with specified requirements in SRS.
+- It is a crucial step before the software gets deployed to the user, aiming to catch any defects that might have slipped through the earlier stages of testing.
+- System testing is performed in an environment that closely resembles the real-world or production environment.
+- Generally, it is performed by independent testers who haven't been involved in the development phase to ensure unbiased testing.
+- It may include functional testing, usability testing, performance testing, security testing, and compatibility testing.
