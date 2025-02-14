@@ -267,28 +267,34 @@ The **team size** is **5 developers**.
 
 ### **Solution:**
 #### **1. Effort Calculation**
+$$
 \[
 \text{Effort} = \frac{\text{Size}}{\text{Productivity}}
 \]
 \[
 = \frac{100}{2} = 50 \text{ person-months}
 \]
+$$
 
 #### **2. Cost Calculation**
+$$
 \[
 \text{Cost} = \text{Effort} \times \text{Pay per person-month}
 \]
 \[
 = 50 \times 5000 = 250,000 \text{ USD}
 \]
+$$
 
 #### **3. Duration Calculation**
+$$
 \[
 \text{Duration} = \frac{\text{Effort}}{\text{Team Size}}
 \]
 \[
 = \frac{50}{5} = 10 \text{ months}
 \]
+$$
 
 ---
 
@@ -304,20 +310,24 @@ The **team's productivity is 4 KLOC per person-month**.
 
 ### **Solution:**
 #### **1. Effort Calculation**
+$$
 \[
 \text{Effort} = \frac{\text{Size}}{\text{Productivity}}
 \]
 \[
 = \frac{200}{4} = 50 \text{ person-months}
 \]
+$$
 
 #### **2. Team Size Calculation**
+$$
 \[
 \text{Team Size} = \frac{\text{Effort}}{\text{Duration}}
 \]
 \[
 = \frac{50}{12} \approx 4.17
 \]
+$$
 
 Since team size must be a whole number, they need at least **5 developers**.
 
@@ -335,22 +345,25 @@ The estimated **code size is 150 KLOC**.
 
 ### **Solution:**
 #### **1. Productivity Calculation**
+$$
 \[
 \text{Productivity} = \frac{\text{Size}}{\text{Effort}}
 \]
 \[
 = \frac{150}{60} = 2.5 \text{ KLOC per person-month}
 \]
+$$
 
 #### **2. Expected Total Effort**
 If they continue at **2.5 KLOC per person-month**, the total effort required will be:
-
+$$
 \[
 \text{Effort} = \frac{\text{Size}}{\text{Productivity}}
 \]
 \[
 = \frac{150}{2.5} = 60 \text{ person-months}
 \]
+$$
 
 Since they have already completed **60 person-months**, they are right on track to complete the project at the expected effort.
 
