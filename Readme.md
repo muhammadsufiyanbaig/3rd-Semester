@@ -9,7 +9,7 @@ Welcome to the my 3rd Semester Study Material repository. This repository contai
 - **`Probability and Statistics`**
 - **`Software Engineering`**
 
-## Contents
+## Self Study Contents
 
 - ### [Artificial Intelligence (AI)](./Artificial%20Intelligence/Readme.md)
 
