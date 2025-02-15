@@ -13,7 +13,7 @@ Welcome to the my 3rd Semester Study Material repository. This repository contai
 
 - ### [Artificial Intelligence (AI)](./Self%20Learning/Artificial%20Intelligence/Readme.md)
 
-- ### [Computer Networks](./Self%20Learning/Computer%20Network/Readme.md)
+- ### [Computer Networks](./Self%20Learning/Computer%20Network/Readme.md)  
 
 - ### [Data Structures and Algorithms (DSA)](./Self%20Learning/Data%20Structures%20&%20Algorithms/Readme.md)
 
