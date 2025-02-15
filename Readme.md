@@ -15,11 +15,11 @@ Welcome to the my 3rd Semester Study Material repository. This repository contai
 
 - ### [Computer Networks](./Self%20Learning/Computer%20Network/README.md)
 
-- ### [Data Structures and Algorithms (DSA)](./Self%20Learning/Data%20Structures%20&%20Algorithms/Notes.txt)
+- ### [Data Structures and Algorithms (DSA)](./Self%20Learning/Data%20Structures%20&%20Algorithms/README.md)
 
-- ### [Information Security](./Self%20Learning/Information%20Security/Notes.txt)
+- ### [Information Security](./Self%20Learning/Information%20Security/README.md)
 
-- ### [Probability and Statistics](./Self%20Learning/Probablity%20&%20Stats/Notes.txt)
+- ### [Probability and Statistics](./Self%20Learning/Probablity%20&%20Stats/README.md)
 
 - ### [Software Engineering](./Self%20Learning/Software%20Engineering/Readme.md)
 
