@@ -9,7 +9,7 @@
 - Typical Intelligent Agents
 - Problem Solving Approach to Typical AI problems
 
-## Chapter #02: Problem Solving Methods
+## [Chapter #02: Problem Solving Methods](./Chapter2/Readme.md)
 - Search Strategies
   - Uniformed
   - Informed
@@ -24,7 +24,7 @@
   - Alpha, Beta Pruning
   - Stochastic Games
 
-## Chapter #03: Knowledge Representation
+## [Chapter #03: Knowledge Representation](./Chapter3/Readme.md)
 - First Order Predicate Logic
 - Prolog Programming
 - Unification
@@ -38,14 +38,14 @@
 - Reasoning System for Categories
 - Reasoning with Default Information
 
-## Chapter #04: Software Agents
+## [Chapter #04: Software Agents](./Chapter4/Readme.md)
 - Architecture for Intelligent Agents
 - Agent Communication
 - Negotiation and Bargaining
 - Argumentation among Agents
 - Trust and Reputation in Multi-agent systems
 
-## Chapter #05: Applications
+## [Chapter #05: Applications](./Chapter5/Readme.md)
 - AI application
 - Language Models
 - Information Retrieval
