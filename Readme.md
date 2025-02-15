@@ -13,13 +13,13 @@ Welcome to the my 3rd Semester Study Material repository. This repository contai
 
 - ### [Artificial Intelligence (AI)](./Self%20Learning/Artificial%20Intelligence/Readme.md)
 
-- ### [Computer Networks](./Self%20Learning/Computer%20Network/README.md)
+- ### [Computer Networks](./Self%20Learning/Computer%20Network/Readme.md)
 
-- ### [Data Structures and Algorithms (DSA)](./Self%20Learning/Data%20Structures%20&%20Algorithms/README.md)
+- ### [Data Structures and Algorithms (DSA)](./Self%20Learning/Data%20Structures%20&%20Algorithms/Readme.md)
 
-- ### [Information Security](./Self%20Learning/Information%20Security/README.md)
+- ### [Information Security](./Self%20Learning/Information%20Security/Readme.md)
 
-- ### [Probability and Statistics](./Self%20Learning/Probablity%20&%20Stats/README.md)
+- ### [Probability and Statistics](./Self%20Learning/Probablity%20&%20Stats/Readme.md)
 
 - ### [Software Engineering](./Self%20Learning/Software%20Engineering/Readme.md)
 
