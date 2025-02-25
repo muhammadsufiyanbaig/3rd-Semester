@@ -1,7 +1,5 @@
 # `Introduction to Software and Software Engineering`
 
----
-
 # Software Engineering Overview
 
 ## What is Software? 
