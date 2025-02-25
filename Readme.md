@@ -9,6 +9,32 @@ Welcome to the my 3rd Semester Study Material repository. This repository contai
 - **`Probability and Statistics`**
 - **`Software Engineering`**
 
+---
+
+## Course Contents
+
+- ### [Artificial Intelligence (Theory)](./Courses/Artificial%20Intelligence/Theory/Readme.md)
+
+- ### [Artificial Intelligence (Lab)](./Courses/Artificial%20Intelligence/Lab/Readme.md)
+
+- ### [Computer Networks (Theory)](./Courses/Computer%20Network/Theory/Readme.md)
+
+- ### [Computer Networks (Lab)](./Courses/Computer%20Network/Lab/Readme.md)  
+
+- ### [Data Structures and Algorithms (Theory)](./Courses/Data%20Structures%20and%20Algorithm/Theory/Readme.md)
+
+- ### [Data Structures and Algorithms (Lab)](./Courses/Data%20Structures%20and%20Algorithm/Lab/Readme.md)
+
+- ### [Information Security (Theory)](./Courses/Information%20Security/Theory/Readme.md)
+
+- ### [Information Security (Lab)](./Courses/Information%20Security/Lab/Readme.md)
+
+- ### [Probability and Statistics](./Self%20Learning/Probablity%20&%20Stats/Readme.md)
+
+- ### [Software Engineering](./Courses/Software%20Engineering/Readme.md)
+
+---
+
 ## Self Study Contents
 
 - ### [Artificial Intelligence (AI)](./Self%20Learning/Artificial%20Intelligence/Readme.md)
