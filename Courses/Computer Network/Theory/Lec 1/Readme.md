@@ -1,4 +1,3 @@
-Here are summarized notes based on the PowerPoint presentation:  
 # **Chapter 1: Data Communications and Networking**
 
 ## **1.1 Data Communications**
