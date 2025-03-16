@@ -1,10 +1,5 @@
 # **Computer Networks - Course Notes**
 
-## **Course Introduction**
-- **Instructor:** Shoukat Ali
-- **Credit Hours:** 3+1
-- **Prerequisites:** None
-
 ## **Course Content**
 1. **Introduction & Protocol Architecture**
    - Basic networking concepts
